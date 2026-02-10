@@ -1,0 +1,396 @@
+1; Maintenance menu
+	VF, VIEW Feedback
+	VN, VIEW New
+	EA, Edit Account
+	EG, Edit Group
+	WF, Write File
+	RF, Read File
+	AM, Activity Monitor
+	LC, Call Log
+	LU, Transfer Log
+	DUmp
+	LA, Amaint Log
+	RUN
+	DD, Download Direct
+	*D
+
+2; Available everywhere
+	Help
+	Chat
+	Time
+	Feedback
+	INFo
+	NU, New User
+	STatus
+	PW, Change Password
+	FInger, UI
+	MS, Mail
+	MR
+	CRedits
+	AG, Activity Graph
+	WHo
+	OLm, On Line Message
+	HIde
+	MUffle
+	UM, User Monitor
+	ET, EDit TERMinal
+	EP, EDit PREFS
+	EU, EDit USER
+	CC, Chat Call
+	ACcount
+	MM, Multi Mail
+	WHY
+	IDentify
+	EF, EDit FInger
+	*C
+	SS
+	DS
+	RM
+	FIND
+	NF
+	NM
+	NSal
+	FReq
+	QWK
+
+3; Main prompt
+	Base
+	Gfiles
+	Join
+	List
+	News
+	Pfiles
+	Relogon
+	Quit,Off,LOGOFF
+	Shell
+	Uploads
+	Vote
+	X, Call Back
+	?
+	UL, User List
+	MV, Mail Verify
+	TErm
+	MOnitor
+
+4; ud/base
+	SN~Scan NEW
+	RN~Read NEW PREVIEW
+	YN~Yank NEW PREVIEW
+	BN~Browse NEW PREVIEW
+	SA~SG NEW
+	RA~RG NEW PREVIEW
+	YA~YG NEW PREVIEW
+	BA~BG NEW
+	AL, Add List
+	KL, Kill List
+	EL, Edit List
+	YG, Yank Global
+	SG, Scan Global
+	RG, Read Global
+	BG, Browse Global
+	VIew
+	Again
+	Browse
+	Download
+	Examine
+	TYPE,Grab
+	DRop
+	Join
+	Kill,DELete
+	List
+	NOTE,NEw
+	Off,LOGOFF
+	Post
+	Read
+	DIR,Scan
+	Quit
+	Upload
+	Validate
+	AO, Adopt Orphans
+	ENtry
+	*
+	?
+	<
+	>
+	/
+	Write
+	ATtribute
+	MOve
+	REspond
+	Z, SEArch
+	ZG, SEArch Global
+	Yank
+	Xit
+	:
+	ML
+	TEst
+	TRansform
+	INvite
+	ORder
+	CD
+	EDit
+	VOte
+	RR
+	CArbon
+	MEmbers
+
+5; Respond or Pass?
+	Download
+	Examine
+	Grab
+	Respond
+	Quit
+	Again
+	Validate
+	?
+	*,SElect
+	Write
+	ATtribute
+	New
+	Kill
+	Last
+	.
+	Over
+	+
+	-
+	>,Pass
+	TEst
+	TRansform
+	POst
+	EDit
+	Scan
+	Z, SEArch
+	VOte
+	Yank
+	<
+
+6; News/GFiles/PFiles
+	Off,LOGOFF
+	Quit
+	Scan, List
+	Post
+	AO
+	EL
+	Edit
+	ATtribute
+	AL
+	Kill
+	ENtry
+	EXit
+	Add
+	ML
+	X, ALPhabetize
+	?
+	/
+	Download
+	*
+
+7; Read mail
+	?
+	.,Again,Over
+	Yank
+	FOrward
+	Group
+	Kill
+	Quit
+	Reply
+	Scan
+	List
+	*
+	Download
+	Pass
+	Noreceipt
+	Write
+	Grab
+	Examine
+
+8; New-scan subboard selection
+	List
+	Filter
+	Keyword
+	Subboards
+	Yank
+	?
+	Abort
+
+9; Read-all
+	Post
+	Skip
+	Quit
+	Abort
+	Continue
+	Drop
+	?
+
+10; Editor-empty or with text
+	*
+	Zip
+	Abort
+	Save
+	New
+	/,.
+	O
+	Wrap
+	Visual
+	>
+	?,Help
+	Quote
+	Get
+
+11; Editor-with text only
+	Insert
+	Mciread
+	Read
+	List
+	Edit
+	K
+	Toggle
+	Delete
+	Border
+	Copy
+	Justify
+	Find
+	$
+	Put
+
+12; Editor justify options
+	Left
+	Right
+	Pack
+	Center
+	Expand
+	Indent
+	Unindent
+
+13; Scan for new at logon
+	Read~RG NEW PREVIEW
+	Browse~BG NEW
+	List
+	RG
+	BG
+	Yank
+	Cancel
+	?
+	Quit
+
+14; Bbslist
+	Add
+	Kill
+	List,Scan
+	Quit
+	?
+	Off,LOGOFF
+	*
+	Download
+	Edit
+
+16; Conference
+	?
+	List
+	Room
+	Quit
+	COntrol
+	PAss
+	Invite
+	Uninvite
+	X,Edit
+	XR,Edit Room
+	PErmanent
+	NAme
+	SAve
+	Verify
+
+17; Mail-verify
+	.,Again
+	Edit
+	Kill
+	Next
+	Quit
+	?
+
+18; Vote
+	List
+	Add
+	Kill
+	Quit
+	Edit
+	Xamine
+	New
+	?
+
+20; Browse
+	Quit
+	Read
+	*
+	Download
+	?
+	Grab
+	Examine
+	Pass
+	.,Again,Over
+	Kill,DELete
+	EDit
+	TEst
+	TRansform
+	Write
+	Validate
+
+22; Message Quote
+	List
+	Add
+	Quit
+	Step
+	Response
+
+23; Alternate BBSTEXT/MENU prompt (example)
+	English
+	French
+
+24; Abort/Logout prompt before file transfer
+	Abort
+	Logout
+
+25; Join/Visit prompt in base
+	Join
+	Visit
+
+26; Reading OLM's
+	Pass
+	Again
+	Reply
+	Quit
+	.,Over
+	?
+	Save
+
+27; Scan for new at base entry
+	Yes
+	Browse
+	Scan
+	No
+	Read
+
+30; Computer types; list no more than 32
+	Amiga
+	Commodore 64, 128
+	Apple 8 bit, GS
+	Macintosh
+	Atari
+	UNIX based
+	IBMPC/compatible
+	Tandy/Radio Shack
+	Other terminal
+
+31; Reading messages ("mess" option)
+	Respond
+	Quit
+	Again
+	?
+	Pass
+	POst
+	Download
+	Examine
+	Grab
+	*
+
+40; You can put your own menus here ... up to #50

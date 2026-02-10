@@ -1,0 +1,2617 @@
+Non1
+Yesn1
+Quit
+almtvx*#$%?=+&
+gisw
+No 
+Yes
+Continuous                     <-- used for More (Y/N/C) checking
+Be nice to me, I'm new! :)
+NSAL
+CALLERID  %s: 
+n1This command may not be executed from console.n1
+q1f1n1@ Setup completen1
+RE-LOGON
+Port %-2d   c6%s
+<logon>
+Logon
+f1n8
+Press RETURN to enter system: i0
+Term
+n1Note: this port will perform off-line maintenance in %d.%d minutes.n1
+n1Terminal [A]MIGA, [C]BM, [I]BM, [S]ky, [NONE]: 
+IBM/ANSI enabled!n1
+Amiga/ANSI enabled!n1
+SkyPix enabled!n1
+Commodore C/G enabled!n1
+n1To proceed, you must know the New User Password.n1
+n1To proceed, you must know the System Password.n1
+n1Enter NEW if you have no account.n1
+Enter your handle.n1: 
+Who
+New
+Continue anyway [N/y]? ?0
+NewUser
+<new user>
+NEW USER  c6begins
+n1Enter your password.n1: 
+n1Verifying...
+hcIncorrect password.n1
+BAD PW: %s
+h7ied.n1
+n1@ Connection closedn1
+n1Use previous term settings [Y/n]? ?1
+f1q1n1
+n1Note: your account has expired.n1
+n1Note: your account will expire on %s.n1
+n1Monthly charge has been assessed.n1
+RESTRICTED BY BBSEVENT
+n1Sorry, you may not call again today.n1
+CALLS/DAY
+n1Note: this is your last call today.n1
+n1Note: you are allowed only %d more calls today.n1
+n1Sorry, you've been online enough today.n1
+MINUTES/DAY
+PORT EVENT
+LOW BALANCE
+n1Daily charge has been assessed.n1
+n1Weekly charge has been assessed.n1
+newcli
+BADLOGON  c6%-30.30s c5%s
+$0soundplay SysData:chat.snd}
+n1@ Cleared for logonn1
+SIGNON    c6account %d, caller %d
+n1WARNING: %d incorrect login(s) have occurred since your last visit.  Want to change your password now [Y/n]? ?1n1
+n1NOTE: %d file(s) exist in your select buffer. (Use DS to download them.)n1
+CNet
+Reading message
+n1q0c6(Scan,?=help) CNet: q1
+n1c9Note: c3your account has been suspended by the sysop.n1
+n1Sorry, you may not use the Program Files at this time.n1
+n1Sorry, the Message Base is closed.n1
+n1Sorry, the Uploads area is closed.n1
+Vote
+AutoCallBack
+EditPersonal
+n1System maintenance enabled!n1
+n1Access denied.n1
+Logoff
+n1Idle timer expired.n1
+n1Lost carrier.n1
+n2Terminated for maintenance purposes.n1
+n2Time limit exceeded.n1
+%s logged off at %s [port %d].
+SIGNOFF   c6TIME LIMIT EXCEEDED
+SIGNOFF   c6AUTO CALL-BACK FAILED
+SIGNOFF   c6IDLE TIME EXCEEDED
+SIGNOFF   c6LOST CARRIER
+SIGNOFF   c6INSTANT LOGOFF
+SIGNOFF   c6NORMAL LOGOFF
+SIGNOFF   c6RE-LOGON
+SIGNOFF   c6$ BALANCE TOO LOW
+SIGNOFF   c6DUMPED BY SYSOP
+SIGNOFF   c6FILE XFER AUTO-LOGOFF
+SIGNOFF   c6MCI % COMMAND
+SIGNOFF   c6TERM LINK
+Shell
+n1Inaccessible while external program is in operation.n1
+          :2c3%s, %s %s %s %s:0
+@ Logoff completen1
+[0m
+@ System shutdownn1
+n1Your modem is too slow for this port at this time of the day.n1
+n1You do not have access to this port at this time of the day.n1
+f1n1Waiting for calln1
+n1Want to logoff the system [Y/n]? ?1
+q1f1n5
+Idle
+LOCAL MODE
+TERMINAL
+Answered
+Hanging up
+FRONT-END CONNECT %d
+LOG TO MAIL
+f1n1Waiting for connectn1
+Account  : %dn1
+Handle   : %sn1
+Real name: %s (%c)n1
+Address  : %sn1
+City/St  : %sn1
+         : %s (%s)n1
+Voice Ph#: %sn1
+Access   : %sn1
+Birthday : %s (%d years)n1
+FirstCall: %sn1
+LastCall : %sn1
+Computer : %sn1
+Data#    : %s %sn1
+Expires  : %sn1
+n1Don't forget to include your Name or Handle.n1
+n1To proceed, you must know this port's password.n2IDENTIFY: 
+n1You must have CallerID enabled to become a user of this system.n1
+n1You must have CallerID enabled to use this account.n1
+CALLER ID NOT PRESENT
+n1Your CallerID number does not match your account.n1
+CALLER ID MISMATCH
+ [N/y]? ?0
+[Y/n]? ?1
+%s (%s)
+No
+Yes
+Opt
+n1Want the system to call you back [Y/n]? ?1
+n1Full remote maintenance authentication:n1
+n1Full remote maintenance granted.n1
+n1Full remote maintenance denied.n1
+High baud: %d0n1
+n1Invalid Account#n1
+n1That account has been deleted.n1
+n1Is %s correct [Y/n]? ?1
+n1Unable to locate user '%s'.n1
+%d.  %sn1
+n1Enter number, name, +, - or ENTER: 
+%s logged on at %s [port %d].
+n1Note: you have less than %d minute(s) left!n1
+q1
+MENU
+n1There is no help available on %s.n1
+n1Enter another topic (or MENU): 
+n1Enter a reason for wanting to chat.n1: 
+CHAT: %s
+n1Sorry, the Sysop is not available.n1
+n1Now paging the Sysop!$0soundplay SysData:chat.snd}n1
+n1Your current status:n1
+n1Password was NOT changed.n1
+JoinLink
+n1DOWNLOAD file: 
+n1SELECT file: 
+n1Enter current passwordn1: 
+Enter the new passwordn1: 
+Again just to be sure!n1: 
+n1Password changed!n1
+n1Finger: Enter a user handle.n1: 
+{}
+OnLineMessage
+Edit terminal
+Edit prefs
+n1Detailed [N/y]? ?0
+n1No error message has been set.n1
+n1Edit account: Enter a user handle.n1: 
+n1Unable to do this--editor is active!n1
+n1EDIT file: 
+n1READ file: 
+n1New uploads:n1
+n1New downloads:n1
+n1Minutes left (0=dump now): 
+Close port after logoff [N/y]? ?0
+n1C Door to run: 
+n1(log is empty)n1
+n1Restart log [N/y]? ?0
+Follow new user format [N/y]? ?0
+n1Edit public question file [N/y]? ?0
+n1Edit sysop question file [N/y]? ?0
+URGENT mail from %s, %s: "%s"
+n1Low level I/O error.n1
+# of days before auto-expiration : 
+n1Error opening.n1
+n1Error seeking.n1
+n1Message %d moved to %s.n1
+n1Message %d could not be removed.n1
+Mail from %s, %s: "%s"
+n1No mail in inbox.n1
+n1c1c7%2d. c1%cq1%s
+MailSend
+n1c7Compose a message:n2
+n1c9Invalid address or user %sq1n1
+; printed above mail flags below}n1q1
+ cfPc3riority: c7%-7s       cfCc3opy-self: c7%-7s         cfRc3eceipt: c7%-7sn1
+ cfEc3xpires:  c7%-7s       cfDc3elivery:  c7%-7s         cfFc3req:    c7%-7sn1
+ cfNc3ame:     c7%-7s       cfSc3ignature: c7%-7s         cfQc3uote:   c7%-7sq0 ? 
+; printed immed.below mail flags}n1q1
+n1c7Days before expiration: cf
+n1Available folders:n1
+%c%2d %c %sn1
+n1Removed: %s.n1
+n1Folder "%s" created.n1
+n1Contents of '%s':n2
+n1No messages in '%s'.n1
+n1Number out of range.n1
+n1q0c6Mail-Read/%s: ?,Quit,Scan,Reply,Rescan [ENTER=next]: q1
+n1That was the last message.n1
+n1Invalid range of items.n1
+n1You can't do this while verifying mail.n1
+n1Message number missing or invalid.n1
+Mail
+n1There are %d new mail item(s) in %s, %d marked URGENT.  Read now [N/y]? ?0
+n1There are %d new mail item(s) in %s.  Read now [N/y]? ?0
+n1There are %d old mail item(s) in %s.  Use MR to read.n1
+n1%s is empty.n1
+n1This command is not re-entrant.n1
+n1Sorry!  This BBS is accepting FidoNet Mail calls only.  Please hang up and call back next hour.n1
+Press ESC or '/' twice to enter system: 
+execute S:trap-sequence%d
+n1Message %d moved.n1}
+n1Folder destroyed.n1
+n1Carbon copy mail disabled for %s.n1
+n1Carbon copy mail enabled for %s.n1
+n1Carbon copy mail not supported.n1
+____________________
+Mail-Alias
+ >
+n1Error destroying foldern1
+MailRead
+ PBCF
+ NUR
+all
+c6%c%c%c c7%3d c2%s c7%-20.20s c6:2%s:0n1
+   From: %s
+     To: 
+     Cc: 
+   Date: %s
+Subject: %s
+  c2(%s)
+:0q1n1
+z4c6    Item:z0 c7%d c6(of %d)n1
+z4c6Subboard:z0 cf%sn1
+z4c6      To:z0 :2c7
+z4c6      Cc:z0 :2c7
+z4c6    From:z0 :2c7%s
+z4c6    Date:z0 cc%sq1n1
+z4c6 Subject:z0 :2cf%sn1
+  Alias: 
+   Name: 
+Address: 
+n1Error adding alias.n1
+n1Alias was added successfully.n1
+Group: 
+n1%d alias(es) killed.n1
+n1No aliases were killed.n1
+n1No file attached.n1
+c7     To: cf
+c7     Cc: cf
+c7Subject: cf
+n1Go to which? 
+n1New folder name? 
+n1Destroy which? 
+n1Move to which? 
+n1q0c6Mail-Alias: ?,Quit,Scan,Add,Kill,Edit: q1
+n1q0c6Mail: ?,Quit,Read,Write,Verify,Aliases,Prefs,FILters> q1
+st
+nd
+rd
+th
+n1This is your %d%s call, the system's %d%s.n1
+n1This is your %d%s call today
+; %d remaining.n1
+.n1
+n1Logon     :  %s (%s)n1
+Now       :  %sn2
+just logged in
+Time remaining for today   :     %3d.%1dn1
+Time remaining in this call: 
+UNLIMITEDn1
+    %3d.%1dn1
+Feedback
+n1Sorry, you have left too many feedbacks.n1
+n1Want to leave feedback for a SysOp [Y/n]? ?1
+n1Want to leave feedback [N/y]? ?0
+n1Subject for your Feedback: 
+n1Feedback filing...
+h6ed.n1
+n1Sorry, only one port per account.n1
+n1There's nothing to download.n1
+n1Inappropriate message number.n1
+n1Could not find foldern1
+n1Folder created.n1
+n1Sorry, that area is empty.n1
+n1Reply in the public base [N/y]? ?0
+n1That item is no longer online.n1
+n1Error creating foldern1
+fbmsm1poretxdoneufukdfdkmumich
+n1Unknown command "%s" ... enter ? for quick help.n1
+ Keyword: 
+n1Password: 
+n1File pattern to %s: 
+:0q1n1
+n1c7*Subboard c6(c7v48}c6) c7v49}n1q1
+This directory is empty.n1
+(dir)
+n1Unable to move in that direction.n1
+%2d. %5s %c %s
+q1%2d c7%-15.15s c6%4ldK %3d/%4ldK :2c6
+c3%2d c7Total           c6%4ldK%4d/%4ldK         c3Time: c7%d:%02d c3Charge: c7$%d.%04d%cn1q1
+n1Enter item(s) to de-select; press ENTER to continue.n1: 
+n1Enter item(s) to TEMPORARILY remove; press ENTER to continue.n1: 
+n1Gfiles, Pfiles, Base, Uploads, Off or ?=Helpn1
+n1Scan, Quit, item# or ?=Helpn1
+n1Browse, Scan, Read, Download, Upload, Quit, ?=Menun1
+n1Browse, Scan, Read, Post, Quit, ?=Menun1
+n1Select list reset!n1
+Browse
+all
+Examine
+Grab
+n1CD, DIR, Download, Upload, Quit, ?=Menun1
+n1You must enter a subdirectory to affect its subboards.n1
+n1GO keyword not recognized.n1*0systext:help/go}
+n1You are no longer a member of %s.n1
+n2GO argument: %s
+%-39.39s
+Kill
+n1You may only specify files in the current directory.n1
+Note
+Posting
+Read
+new preview
+{}
+n1 # Title            Size   Credits Descriptionn1
+q1-------------------------------------------------------------------------------n1
+n1There is no subboard %d.n1
+Re: 
+n1Default order: %sn1
+Follow subboard default
+Chronological
+Reverse chronological
+Alphabetical
+Files 1st, chronological
+Files 1st, rev. chrono.
+Files 1st, alphabetical
+n1%s has been invited to this subboard.n1
+n1%s has been uninvited from this subboard.n1
+n1Enter HANDLE of user to toggle invitation:n1: 
+n1Sorry, you have not been invited to that subboard.n1
+n1%s is not a user of this system--use anyway [N/y]? ?0
+{}
+n1%s deleted.n1
+n1How would you like the items arranged?n1: 
+n1%s is not a member of this subboard--address anyway [N/y]? ?0
+n1That subboard is temporarily locked.  Try again later.n1
+n1You are a suboperator here.n1
+n1That area is temporarily closed.n1
+n1You are TOO YOUNG to enter.n1
+n1You are TOO OLD to enter.n1
+n1That subboard is reserved for the opposite sex.n1
+n1Users with your computer type may not enter that subboardn1
+n1You may not enter that subboard at this time.n1
+n1Your modem is too slow for that subboard at this time.n1
+n1You are not a member of %s.n1
+Join, Visit, [cancel]? 
+n1Read new items now (Yes,Browse,Scan,[N/y])? g0
+n1Direct exchange subboard.n1
+(Not found; May have been moved)
+n1ORDER set for %s.n1
+n1Auto-purge %s at next a-maint [Y/n]? ?1
+n1%s will not be downloadable until %s.n1
+n1%s is no longer downloadable.n1
+n1Mark messages using a background process [N/y]? ?0
+Text search
+Global text search
+c1 *R*
+c3v82 %5s} l70 79}xm 5}v70 %6.6s} c7v75 %-20s} v77 %-20s} c2:2v87}:0n1
+c6%4d c7%-20.20s %-20.20s c2%s%sq1n1
+n1Files cannot be named "." or "..".n1
+%s has failed an integrity check.
+n1q0c6(c7v48}c6)c7 v49}> q1
+Files area
+Message base
+n1q0c6%s> q1
+n1Subject of your post  : 
+(%s)
+n1Post filing...
+h6ed.n1
+n1The characters #?/:\"*;=()<>|% cannot be used in a filename.n1
+n1Sorry, files of that type are not permitted.n1
+n1Sorry, that file already exists or is now being uploaded.n1
+n1Sorry, not enough disk space.n1
+n1Only UNFINISHED items may be resumed!n1
+n1This transfer protocol can not be used to resume a file.n1
+n1You may select to upload other files at this time as well.n1
+n1Describing your uploads now is OPTIONAL:n1
+n1Title for item #%2d: 
+n1You MUST supply a short description.n1
+The following files need your attention in the subboard "%s" :n1
+v81 %3s}            c2Killedq1n1
+%s is unfinished. (use U {item#} to resume)
+%s has no description. (use W {item#} to write one)
+Upload Credits
+n1Please specify item number(s).n1
+%3.3s'%2.2s
+v81 %3s}v89}v93}.10}v90}
+    c5<unvalidated>
+    c5<private item>
+v83 %3.3s} :2c7v91 %-11.11s}v92 %3.3s}c6v88}:0
+v83 %3.3s} c2:2v87}:0
+:0q1n1
+Anonymous
+n1File-attach (?=Menu): 
+n1File-attach cancelled.n1
+n1File could not be found.n1
+n1You do not have access to edit or kill items.n1
+n1You may only edit or kill your own items.n1
+n1Trouble opening Text file.n1
+n1Re-new item post dates [Y/n]? ?1
+n1Item %3d: already validated; undo [N/y]? ?0
+n1Item %3d: now validatedn1
+%-17s%s
+n1Credit removal factor [0]? 
+n1Only SuperUsers can enter that area.n1
+n1You do not have download access here.n1
+n1%s:  ASCII, Hex, [abort]? g0n1
+n1No files were matched.n1
+n1c2New responses:n2
+{}
+n1Trouble locating this message.n1
+c7 (FREE DOWNLOAD)
+c7 (SYSOP FAVORITE)
+c7 (UNFINISHED FILE)
+c7 (UNVALIDATED)
+c7 (NO DESCRIPTION)
+n1Not a user.  Use anyway [Y/n]? ?1
+ :2c6
+n1Enter a short description for %s (required):n1:
+All
+No one
+n1c2There have been %d responses.n2
+n1c2There has been 1 response.n2
+{}
+Edit text        [Y/n]? ?1
+{}
+Stopping.n1
+c7 (FAILED INTEGRITY TEST)
+c7 (NOT YET TESTED)
+c7 (THIS ITEM IS NOT ONLINE)
+n1There have only been %d responses.n1
+n1This subboard REQUIRES that you address your messages.n1
+n1Enter an OPTIONAL long description [N/y]? ?0
+Change addressee  [N/y]? ?0
+n1'%s' belongs to another user.
+  Use anyway [N/y]? ?0
+n1Enter the SENDER'S handle [ENTER=YOU].n1: 
+n1Address this message to %s [Y/n]? ?1
+n1Enter the ADDRESSEE'S handle [ENTER=ALL].n1: 
+Anonymous
+Private message
+Use/change alias  [N/y]? ?0
+n1Publicly respond to "c7%sq1":n1
+n1This item hasn't been described yet.n1
+Responding
+Response filing...
+h6ed.n1
+n1q1Abort, Drop, Post, Quit here, Skip dir, [CONTINUE]: g0
+%d.  %s (%d)n1
+There are no suboperators.n1
+n1Enter number to send mail to: 
+n1This item already has a description!n1
+n1You are not the uploader of this file!n1
+Too many selections!n1
+n1%s now unselected.n1
+%s was already selected.n1
+;just a comment!}n1%s now selected!n1
+n1%s:  unknown archive type.n1
+c6 %3d
+c6    
+ %3d: ..c5
+c6..q1n1
+Keyword text #%d: 
+Filter text  #%d: 
+n1No matches were found.n1
+n1%d total matches.n1
+n1Please describe c7%sq1n1
+c7 (PRIVATE MESSAGE)n1
+n1Kill response %d: are you sure [Y/n]? ?1
+n1Total Space: c7%d%% q1of c7%s q1Used.q1  c7%s q1Free.n1
+n1Sorry, item %d 
+has been killed.n1
+Edit response number  : 
+is private.n1
+is unvalidated.n1
+is unfinished.n1
+is a post, not a file.n1
+is offline.n1
+Change date       [N/y]? ?0
+n1Nothing was found!n1
+n1Wait for OLM, or retrieve within %d days.  Use YQ to check the queue.n1
+n1Enter an offset in DAYS, or a DATE like 31-2-90 (*=Today).n1: 
+n1QWK requires a compression format.  Use EP to set this.n1
+n1Set filters/keywords/subboards [N/y]? ?0
+Use QWK offline reader format  [N/y]? ?0
+Also pack messages to download [N/y]? ?0
+Forget existing marked items  [Y/n]? ?1
+n1There are no subboards here.n1
+Base
+n1This subboard is empty.n1
+n1%d response(s) killed.n1
+new
+brandnew
+newresp
+free
+favorite
+unval
+tome
+private
+reverse
+since
+pass
+all
+to
+{}
+by
+first
+^
+last
+$
+this
+.
+current
+next
+previous
+mess
+byme
+until
+preview
+banner
+Abort
+Disconnect
+JoinLink
+n1You have no marked messages.n1
+n1Forget marked message now [N/y]? ?0
+n1Only valid for QWK reply subboards.n1
+n1Command valid in Exchange subboards only.n1
+Browsing
+n1Are you a member of this mailing list [N/y]? ?0
+n1Invalid command for Exchange subboard.n1
+n1'%s' not found.n1
+n1Items range from 1 to %d.  Current item is %d.n1
+n1Items range from 1 to %d.n1
+n1No items matched.n1
+n1BROWSE: Download, *, Examine, Grab, Quit, Read, [Pass]> 
+Stopping.n1
+n1Improper use of range parameters.n1
+n1Enter item number(s) or title(s) to %s (?=help):n1: 
+n1Loss of carrier or dumped.n1
+n1Abort from console.n1
+n1Too many uploads at once.n1
+q0n1Aborted or possible errors.n1
+q0n1Transfer completed!n1
+The average CPS rate for the last transfer was %d.n1
+n1[A]bort logoff and return to BBS.  [D]isconnect now.  Countdown:   
+h2%2d
+n1Copy to path: 
+%s ... 
+copied.n1
+Downloading
+n1Go to receive files, ^X abortsn1
+n1Unable to create temp upload dir.n1
+Uploading
+n1Go to send files, ^X abortsn1
+n1You may not Upload or Download this time of day.n1
+n1Sorry, your modem is too slow to download right now.n1
+n1You don't have enough money in your account.n1
+n1You've downloaded your file limit for the day.n1
+n1Sorry, you don't have enough file credits.n1
+n1You've downloaded your byte limit for the day.n1
+n1Sorry, you don't have enough byte credits.n1
+n1One moment ... retrieving file(s) from CD-ROM...n1
+n1Sorry, too many files!n1
+n1Posting not allowed here.n1
+n1Sorry, your modem is too slow to upload right now.n1
+n1Uploading not allowed here.n1
+n1You've uploaded enough files today.n1
+n1You've uploaded enough today.n1
+n1Sorry, not enough memory.n1
+n1Please select a valid partition.n1
+n1Adopt file dates from DOS [N/y]? ?0
+n1You may not have enough time to completely download all files.n1
+{}
+n1Adopt from which partition (%s)? 
+{}
+c7%cc1)c5 %sn1
+n1q1Which protocol? g0n1
+n1No protocols.n1
+n1Use your default protocol %s [Y/n]? ?1
+n1Unable to open that protocol.n1
+Short description summary file: 
+n1Ready to transfer with %s
+n2Logoff upon completion, Abort, [Begin]: 
+n1Auto-logoff 
+ENABLED.n1
+DISABLED.n1
+XPR Receive
+XPR Send
+n1Unable to open transfer window.n1
+n1Unable to setup protocol.n1
+%c%3d %4d %-16.16s%4d
+   File#:                       Protocol:
+Filename:                       BlockChk:
+  Length:                       TimeUsed:
+Position:                       TimeLeft:
+  Block#:                       Ave. CPS:
+BlokSize:                         Errors:
+ LastErr:
+  Status:
+newshell FIFO:%s/rwKecs from S:shell-startup
+newshell FIFO:%s/rwKecs from %s
+%sfiles.bbs
+n1FIFO library can not be accessed.n1
+n1NOTE: can not find "%s" ...n1
+n1NOTE: can not find "%s" ...n1
+n1Pattern: 
+n1Directory of %sn1
+c7%-24s
+  (dir)  c6
+c6%7ld  
+c3? 
+  c2:2%s:0n1
+n1No disk present.n1
+n1Used: c7%d%% of %sq1  Free: c7%sn1q1
+%dM
+%d.%dM
+%dK
+%d 
+%d.%dG
+n1## Descriptionn1
+   Expires  : %s
+== ===============================================================n1
+   MCI env  : %d
+c3%2d :2c7%s:0n1
+   DOS path : %s
+   Arguments: %s
+[Text Reload]
+c2
+%s joined.n1
+you are already a member of %sn1
+%s dropped.n1
+n1No news.n1
+n1News Bulletin: %.50s
+n1(%.50s)n1
+n1Enter item#, Scan, Quit, ?=Menun1
+{}
+   Date     : %s
+n1You may not use anymore time in this door today.n1
+n1Note you are limited to %d.%d minutes in this door.n1
+n1ANSI detection.. (SPACE=ABORT)
+n1ANSI detected!w2n1
+n1Local Terminal ANSI.n1
+n1No new news.n1
+{}
+n1Sorry, that door is in use by port %d.n1
+morning
+afternoon
+evening
+(Local)
+UNLIMITED
+UNLIMITED
+(no one)
+   FileType: %s %s
+n1Sorry, there are too many door already running.n1
+c7r1%3d r0c2
+c7r1    12a1a.2a.3a.4a.5a.6a.7a.8a.9a.10a11a12p1p.2p.3p.4p.5p.6p.7p.8p.9p.10p11pq1
+n1           r1c3                     Last   Setup  Period   Total Currentr0n1
+           r1c3%sr0c7
+Feedback         
+Mail sent        
+Mail to #1       
+Posts            
+Responses        
+Texts read       
+Doors opened     
+NewUsers+Guests  
+Upload files     
+Upload Kbytes    
+Download files   
+Download Kbytes  
+Minutes use      
+Minutes idle     
+Charges          
+{}
+{}
+Access %s set for %s.n1
+Re:
+Re: %-.75s
+Fwd: 
+Fwd: %-.74s
+Upload list full!n1
+n1Sorry, this directory is empty.n1
+n1Sorry, that item is temporarily disabled.n1
+%8s
+SETUP  PERIOD TOTAL 
+z4c7%sz0c6 %s 
+q1
+n1Source and destination are the same folder.n1
+{}
+[0;37;44m Bad region!
+[0;37;44m Not enough memory
+[0;37;44m Region not set
+[0;37;44m [Mark set]
+ Line:%4d of %-4d Col: %2d
+[0;37;44m REGION: C[36mopy [37mK[36mill [37mM[36mark [37mP[36maste? 
+[0;37;44m Region copied
+[0;37;44m BBS Command? 
+n1q1Press any key...g0
+[0;36;44m Search [%s]? 
+[0;36;44m Not found
+[0;37;44m A[36mbort [37mC[36mheck spelling [37mD[36mrawEd [37mG[36met [37mH[36melp [37mL[36mineEd [37mN[36mew [37mP[36mut [37mQ[36muote [37mS[36mave [37mZ[36mip? 
+[0;37;44m ABORT: are you sure? 
+[0;37;44m NEW: are you sure? 
+Press any key...g0
+[0;36;44m
+[0;37;44m CNet/5 VISED                     
+ CTRL [36me[37mX[36mit/file [37mP[36mreview
+ [37mC[36mommand
+ [37mR[36megion [37mS[36mearch
+[0;37;44m There is no message to quote
+[0;37;44m Response number? 
+[0;37;44m Quote text unreadable
+[0;37;44m Inserted %d lines
+[0;37;44m Buffer is FULL
+[0;37;44m Line is FULL
+[0;37;44m File to insert? 
+[0;37;44m File to write? 
+[0;37;44m File could not be opened
+[0;37;44m Wrote %d lines
+You must request that the Sysop edit this for you.
+n1You must first use the EP command to give yourself a MAIL-ID.n1
+n1Alias                Name                    Addressn1
+-------------------- ----------------------- --------------------------------n1
+%-20s %-23s %-32sn1
+n1Enter the address of the system for the .REQ file:n1: 
+n1Trashcan emptied.n1
+deleted: %d
+n1Trashcan not found.n1
+n1Could not locate messagen1
+n1Could not open messagen1
+n1Error updating (%d).n1
+   There are file attachments.n1
+Your message dated %s has been accessed.n1
+RPT: %-.74s
+n1Low level memory error.n1
+n1Message successfully updated!n1
+n1Edits abandoned.n1
+n1Processing: %sn1
+            wrong ID ... %s != %sn1
+            bad formatn1
+            not found ... %sn1
+            conference number out of range.n1
+            message too large.n1
+n1%d file(s) processed ... %d message(s) imported.n1
+n1Not enough memory.n1
+n1You may not change foldersn1
+All
+Anonymous
+Editing..
+Edit complete.n1
+n1Folder %s emptyn1
+Could not open %s for read.n1
+No
+Yes/Def. Off
+Yes/Def. On
+n1    # Posted From                 To                   Titlen1
+n1  # Posted Rsp Titlen1
+n1  # Upload Rsp File           Size Descriptionn1
+n1c7*%s: 
+c6%s/
+c7%s
+n1q1
+SYSOP
+n1Include your un-read Mail messages [N/y]? ?0
+DOWNLOAD notification
+File downloaded     : %s
+Size (bytes)        : %d
+File credit rewards : %d
+Byte credit rewards : %d
+Really delete %s [No]? ?0
+                                   c3CD-ROM fileq1
+...
+%3d c7%-23.23s c6%4dK  %.41sn1
+                                   c3:2%sq1
+                                   c3FILE NOT ONLINEq1
+n1Enter character string to match:n1: 
+n1File not found or not accessible.n1
+New scan
+n1New-dates reset for %d subboard(s).n1
+%10d
+n1### Subboard                          New posts New resps To you
+n1=== ================================= ========= ========= =========n1
+%3d %-s.37}
+n1c2Last visit was %sn1
+c7: c5%4d c7file      (%ld bytes)
+c7: c5%4d c7files     (%ld bytes)
+c7: c5%4d c7post      
+c7: c5%4d c7posts     
+c7: c5%4d c7response  
+c7: c5%4d c7responses 
+(c3%4d newc7)
+(c3%4d new-response itemc7)
+(c3%4d new-response itemsc7)
+c7: c5%4d c7new message is addressed to youn1
+c7: c5%4d c7new messages are addressed to youn1
+c7: c5This subboard is EMPTY.n1
+n1There have been no new posts or responses.n1
+n1%d subboard(s) report new messages since you last visited them.n1
+n1c7Bq1rowse#-# c7Cq1ancel#-# c7Lq1ist#-# c7Rq1ead#-# c7Yq1ank [?=menu]: 
+n1There have been no new uploads since your last call.n1
+n1%d subboard(s) report new uploads since your last call.n1
+n1Quick-browse these new files now [Y/n]? ?1
+Remember them for your next call  [N/y]? ?0
+.
+n1Remember these for your next call [N/y]? ?0
+{}
+n1Command is not usable from this prompt.n1
+n1A QWK upload area has not been created.n1
+c2%12s c7%-9s c6%-30.30s c5%-.25s
+c2%12s c7%-9s c6%-.56s
+c2%12s c7%s
+c2%12s c7%-20.20s c6%-30.30s c5%-.14s
+c2%12s c7%-20.20s c6%-.45s
+n1Access groups to apply changes to: 
+n1Your access to the system has been lowered due to low account balance.n1
+n1Error reading file systext:vde/%sn1
+n1Not enough memory for VDE file.n1
+@2CNet/5 VisualDataEditor         
+Use cursor keys; ENTER to select
+n1Can not kill a user while he is online.n1
+n1Can not edit system operator from remote.n1
+n1You may not give sysop access to another user.n1
+Item                  Charge    Sessionn1-------------------- -------- ----------n1
+%-20.20s $%1d.%04d%c $%3d.%04d%cn1
+-------------------- -------- ----------n1
+Connection time charges
+Other activity charges
+Total cost of this call
+Remaining acct balance
+Minimum balance allowed
+%-28.28s  $%3d.%04d%cn1
+n1Sorry, your balance is too low.n1
+n1Messages entered: %d private; %d publicn1
+n1                    files        bytes
+n1--------------- --------- ------------n1
+Your uploads  : %9d %10d Kn1
+Your downloads: %9d %10d Kn1
+%7d:1
+%8d:1
+Default ratios: %9s   %10sn1
+n/a
+no limit
+%9d
+%10d
+Your credits  : %9s   %10sn1
+For this sub  : %9s   %10sn1
+n1OLM saving...
+h6ed.n2
+n1This OLM may not be saved.n1
+Usable today  : %9s   %10sn1
+OLM from %s
+Who
+n1Port#, Who, or user handle (*=ALL): 
+n1Unable to match a user on-line!n1
+n1You may not send an OLM to that port.n1
+n1Send OLM to %s, port %d [Y/n]? ?1
+n1Press ENTER when finished; max 380 characters.n1
+n1%d OLM(s) sent.n1
+n1Your OLM has been sent.n1
+n1Your OLM could not be sent!n1
+n1c7**** OLM from %s on port %d (%s)n1a1@1
+b1c7
+h1c7OLM (%d waiting): Again, Reply, Save, ?=help, [Pass]> q1
+c7:c2
+h1q1
+n1c7**** BROADCAST from %s on port %d (%s)n1a1@1
+n1Port User name            Logon  Spd From                     Where
+n1==== ==================== ====== === ======================== ================n1
+c7%2d c6%1.1sc7
+ %-20s %6s %3d
+  (no one)
+c5                                     %sn1
+%-20.20s %3.3s
+%-16.16s
+{}
+ c6%-24.24s %-16.16sn1
+q1
+n1Now muffling
+n1Now listening to
+n1Now hiding from
+n1Now visible to
+n1Now monitoring
+n1No longer monitoring
+ port %d.n1
+ all ports.n1
+n1   c6%sn1   %sn1
+   :2c5%s:0n1
+n1c7**** System Message (%s)n1a1@1
+ETA: %5dK @ %5d CPS = %3d min, %2d sec
+h (blind)
+- (mute)
+m (gagged)
++ (sysop)
+M (gagging you)
+n1Broadcast your reply to all ports [N/y]? ?0
+c7n2Exiting chat mode...n2q1
+  Press ^X to exit. CTRL-T to toggle chat modes.
+Reading OLMs
+Sysop Chat
+Inter-user Chat
+Sysop
+q1c7n2b2Now entering chat mode with %s.
+c7/q1
+c2
+c6
+c1
+n1Sorry, that user is already in chat mode.n1
+n1Sorry, that user is out of time.n1
+n1Attempting to interrupt: <SPACE> to stop...
+.
+n2Unable to interrupt...try again later.n1
+n1Subject: 
+USER CHAT REQUEST!  Use %sCC %s' to enter chat mode.  SUBJECT: %s
+'/
+ '
+S (SuperUser)
+n1%d request(s) sent.n1
+n1%s has been notified that you wish to chat.n1
+n1Your Chat Request could not be sent!n1
+I
+%d:n1
+{}
+{}
+n1Not enough memory to enter the editor.n1
+n1Body > 100k.  CNet cannot display this item.  Please use the EDIT command to view it.n1
+n1CNet/5 LineEditor:n1
+n1Lines in memory: %d
+n1Maximum lines  : %dn2
+Enter up to %d lines--enter
+ .H at column 1 for Help, or .S to Save.n1
+Only press ENTER when beginning a new paragraph.n2
+>> Only 5 lines left!n1
+>> Buffer full! .H for helpn1
+Command:
+--> 
+Zipn1
+n1Access denied.n2
+n1Use Xmodem or [ASCII]? g0
+n2Start sending NOW (control-X to abort)n1
+{}
+{}
+n1Zip successful!n2
+n1Zip receive error!n1
+Abort
+n2Lose all changes [N/y]? ?0n1
+n2
+Save
+q1f1n1
+Clear text
+Line numbers are 
+onn2
+offn2
+Word wrap is 
+n1Insert mode is OFF.n2
+Visual
+n180 column ANSI terminals only.n1
+Right margin 
+Help
+Get 
+Insert 
+n1Now inserting at line %d.n2
+MCI Read 
+Read 
+List 
+Edit 
+Replace 
+Toggle 
+Delete 
+Border
+No roomn2
+Border with? 
+Copy 
+Justify 
+(C,E,I,L,P,R,U)?
+Left 
+Right 
+Packed 
+Center 
+Expand 
+Indent 
+Unindent 
+Find 
+{}
+{}
+{}
+{}
+Search for? 
+No occurrencesn2
+Change 
+Replace with? 
+No occurrencesn2
+Put 
+n1Huh?  Enter .H for Help with commands.n1
+%d)n1
+E%d:n1
+>>Exit
+n2Stopping.n2
+(No change)n2
+R%d:n1
+>>Exit
+(Line %d deleted)n1
+(Lines %d to %d deleted)n1
+Buffer fulln2
+Line %d is fulln1
+%d occurrences line %dn1
+n1Unable to find that file.n2
+n1Unable to open write file.n2
+Quoten1
+n1There is no message to quote!n2
+On %s, %s wrote:
+{}
+On %s, %s said to %s:
+q1Item %d
+; response %d of %d
+: 
+There are %d lines.n1
+n1c7Lq1ist#-#, c7Aq1dd#-#, c7Sq1tep#-#, c7Rq1esp#, c7Qq1uit: 
+n1Response number too high.n1
+c7%2dc2:q1%s
+q1n1Yes, Quit, [N/y]? g0n1
+%s> %s
+Inserted %d lines.n1
+n1Ok.n2
+n1Unable to open message.n2
+{}
+{}
+{}
+{}
+q2q1More[Y,c]q3
+n2The Sysop has entered LocalMode. One moment...
+n2You may now resume!n2
+q2q1More[Y,n,c]q3
+q1^Cn1
+q1[SKIP]n1
+n1NOTE: can not find "%s" ...n1
+{}
+{}
+%s %2d-%s-%d %2d:%02d%c
+Sat
+Sun
+Mon
+Tue
+Wed
+Thu
+Fri
+Jan
+Feb
+Mar
+Apr
+May
+Jun
+Jul
+Aug
+Sep
+Oct
+Nov
+Dec
+{}
+{}
+n1Sorry, you have not been cleared to use that command.n1
+n1Sorry, you have left enough messages for this call.n1
+Line editor: %d lines.  .S to Save, .H for Help.n2
+n1Personal information (*=Private):n2
+ 1) Handle  :  %s
+ 2) Name    : %c%s
+ 3) Address : %c%s
+ 4) City    :  %s
+ 5) ZipCode :  %s
+ 6) Country :  %s
+ 7) Voice#  : %c%s
+{}
+ 9) BirthDay: %c%s
+10) Gender  :  %s
+(Guest)
+12) Password: *%s
+n1Enter the # of the item to change, or press ENTER to continue.n1: 
+n1Unable to find your account!n1
+{}
+ 8) Data#   : %c%s
+11) Organiz.:  %.24s
+n1If you wish to be associated with an organization, enter its name now.n1: 
+{}
+{}
+None
+Simple
+Full
+{}
+NewAccnt  c6%d/%d, %s
+NEW USER
+GUEST USER
+Welcome!
+n1New user process completed.n1
+Idle %d.%d %s
+mins
+hours
+{}
+{}
+ACB-OK    c6%s
+ACB-FAIL  c6%s
+n1User data index files corrupt... run POINTERS.n1
+n1Oops!  That seems to be an inappropriate phone number.n1
+%02d.....%s     
+n1Oops!  That seems to be an inappropriate name.n1
+n1Somebody is already using the handle "%s"!n1
+n1Enter the abbreviation for your country (??? for help).n1: 
+n1Enter the handle that you wish to use on this system.n1: 
+n1Sorry, there is no room for another user.n1
+n1Somebody is already using the name "%s" ... try a variation.n1
+n1What is your gender? 
+Female
+Male
+n1Somebody is already using the MAIL-ID "%s"!n1
+n1Sorry, that is a reserved MAIL-ID.n1
+ uucp root admin guest sysop listserv
+n1Enter the password that you would like to use.n1: 
+n1Please enter your real FIRST name.n1: 
+n1Please try again.n1
+n1Please enter your real LAST name.n1: 
+%s %s
+n1Is %s correct [Y/n]? ?1
+n1Please enter your street address.n1: 
+n1Please enter the name of your City (and Province if applicable).n1: 
+n1Please enter the name of your City.n1: 
+n1Please enter the 2 letter abbreviation for your State or Province.n1: 
+%s, %s
+n1Is %s correct [Y/n]? ?1
+n1Please enter your Zip or PostalCode.n1: 
+n1Enter the LOCAL part of your phone number.n1: 
+n1Enter the three digit AREA CODE.n1: 
+n1Enter your COUNTRY/CITY CODES (++ prefix).n1: 
+%s-%s
+n1Enter the year during which you were born:n1: 
+n1Enter the number of the month during which you were born:n1: 
+n1Enter the day of the month on which you were born:n1: 
+n1System preferences:n2
+ 1) Help level        : %s
+Novice
+Intermediate
+Expert
+SuperUser
+15) Edit "WHO" BANNER
+11) Your MAIL-ID      : %s
+14) Edit SIGNATURES
+10) Message bundling  : %s, %s
+ 2) More? mode        : %s
+ 3) Message reading   : %.14s
+ 4) File xfer protocol: %s
+ 5) Time zone         : %s
+ 6) Time format       : %s
+AM/PM format
+24 hour time
+17) Edit user dictionary
+ 9) Default editor    : %s
+ 8) Auto hide & muffle: %s
+12) Interface Type    : %s
+CNet/4+
+CNet/3
+ 7) Text translation  : %s
+NOT AVAILABLE
+16) Edit MACROS
+n1Enter the # of the item to change, or press ENTER to continue.n1: 
+n1NOT AVAILABLE.n1
+n1Which language would you like to use?n1: 
+n1Choose a level based on your experience with the system.n1: 
+n1No protocols.n1
+n1Enter your new MAIL-ID:n1: 
+n1Improper MAIL-ID format--name must begin with a letter and contain no spaces.n1
+n1The global mailkill list is in use - please try latern1
+n1Select a default time format.n1: 
+n1Do you want CNet/3 subboard/message commands enabled [Y/n]? ?1
+n1Not Available - CNet/4+ mode forced by SysOp.n1
+n1System MACRO definitions:n2
+(none)
+%s@1%s
+ 1) Logon MACRO : 
+ 2) Control E   : 
+ 3) Control F   : 
+n1Sorry, you may not create a custom user dictionary.n1
+n1Choose the appropriate end-of-line sequence for your computer:n1: 
+n1Choose the compression method that you would like to use:n1: 
+n1Enter text to appear under your name during a "WHO" command:n1: 
+n1Which editor would you like to use?n1: 
+n1Enter the # of the item to change, or press ENTER to continue.n1: 
+n1Here are the terminal settings you've selected:n2
+ 1) Computer type: %s
+ 2) Graphics set : %s
+ASCII
+C=64 GFX
+IBM GFX
+Amiga Int'l
+Amiga SkyPix
+n1Choose your default hide & muffle setting:n1: 
+n1Choose your preferred method for reading subboard items with responses:n1: 
+Continuous
+Prompts
+ANSI paging
+ANSI scrolling
+ 4) Line feeds   : %s
+ 5) Screen width : %d
+ 6) Screen height: %d
+ 7) ANSI tabs    : %s
+ 8) ANSI color   : %s
+Off
+Your own port
+Other ports
+All ports
+n1Enter the # of the item to change, or press ENTER to continue.n1: 
+n1Choose your graphics set.n1: 
+n1Enter the number of characters per line your terminal can display.n1: 
+f1q1f1n1
+n1Enter the number of lines that yourn1terminal can display.n1: 
+q0
+%2d) %s
+n1Not a valid choice!  Please try again.n1
+ 3) ANSI support : %s
+n1Do you want the "More?" mode enabled [Y/n]? ?1
+n1Enter the # of a computer type.n1: 
+n1Does your terminal require linefeeds [Y/n]? ?1
+n1Enter the level of ANSI that your terminal supports.n1: 
+n1Does your terminal support ANSI Tabs [Y/n]? ?1
+n1Does your terminal support ANSI Color [Y/n]? ?1
+n1You are already validated!n1
+n1Auto-callback not enabled.n1
+n1Auto-callback validation: %s is not a local phone number.n1
+n1You may be validated immediately by having the system call you back.n1
+n1Want to set your default editor to the ANSI visual editor [Y/n]? ?1
+n1Would you like the system to call you back at %s [Y/n]? ?1
+n1Please hang up now.  Enter ATA when your terminal reports "RING."n1
+Dialing Callback
+n1w1n1w1n1Welcome back!n1
+n1Enter your password for verification: 
+n1Thank you.n1
+Handles
+Aliases
+Real names
+Either
+Female
+Male
+n1There aren't any rooms.n1
+Conference
+c3Use the /XR command to configure your room,
+ then /IN to invite users in.n1
+c7Use /? if you require assistance.n2
+This is a real-name room. Use /NAME to toggle your default.n2
+c7Whisper to whom: c2
+c3Specify the port# or handle of another user.n1
+c3Ummm...that's YOU! :]n1
+c3That person is not in this room!n1
+c7Yell at whom: c2
+c7Noise (ENTER=help): c2
+c3There are no noise files.n1
+{}
+c3Try to be less ambiguous.n1
+c3That's not a valid noise.n1
+c7%s what: c2
+(aborted).n1
+c7(optional) 
+c7Whom: c2
+(aborted).n1
+everyone
+c3Your noise must include `0.n1
+{}
+c7(optional) 
+c7Object: c2
+(aborted).n1
+c3Too few arguments.n1
+[%d;%dm%d.%s:z0 c3(c5PRIVc3)[%dm  
+[%d;%dm%d:%d.%s:z0 c3(c5PRIVc3)[%dm  
+[%d;%dm%d.%s:z0 c3(c5to %sc3)[%dm  
+[%d;%dm%d:%d.%s:z0 c3(c5to %sc3)[%dm  
+{}
+{}
+her
+his
+{}
+she
+he
+{}
+herself
+himself
+{}
+is
+{}
+s
+{}
+es
+{}
+s
+{}
+'s
+you
+c3(c5PRIVc3) c5%sn1
+c5%sn1
+{}
+your
+{}
+you
+{}
+yourself
+{}
+are
+{}
+{}
+{}
+ve
+{}
+r
+you
+{}
+LF
+CR
+CR/LF
+LF's only (Amigas)
+CR's only (Macs)
+CR + LF's (PCs, etc)
+(can't see you)
+(muffled)
+(muffling you)
+c5%sn1
+c7/c2
+q1
+c7You're already in that room.n1
+c7Unable to find a room with that topic.n1
+c3---- system operator has taken control.n1
+c3---- control has been passed to %s.n1
+c7Unable to match a user online.n1
+YOU HAVE BEEN INVITED to join my private conference!  Use /R%d from conference to enter. Topic is %s
+{}
+c7Send OLM invitations [Y/n]? c2?1
+c3---- ALL accounts have been INVITED.n1
+c3---- %s has been INVITED!n1
+{}
+c3---- %d OLM invitation(s) were sent.n1
+{}
+c3ALL accounts UNINVITED.n1
+c3---- %s has been UNINVITED.n1
+{}
+c3Please specify a valid port number.n1
+c3You do not have control.n1
+c3This room is now permanent.n1
+c3Permanent status revoked.n1
+c3Use of your real-name now allowed.n1
+c3Use of your real-name now not allowed.n1
+c3Unrecognized conference command.n1
+Conference
+{}
+c7You've been uninvited.n1
+n1c6Leaving the conference...n1q1
+{}
+c3Room config saved.n1
+[%d;%dm%d.%s:[%d;40m  
+[%d;%dm%d:%d.%s:[%d;40m  
+{}
+         c7%2d: c5%sn1
+n1c6Conference participants (#=control):n1
+c2Room %2d  
+c7%s
+c7(no topic)
+c2Room %2d  c7%s's room
+c3  Topic: c7%s
+c1  (CLOSED)
+c3             (room is empty)n1
+           c7%c c6%-20s c3(port %d)  c4%sn1
+c2n1You're in conference room %d
+, %s.
+.
+c2n1You're in %s%s private room (#%d).
+your
+'s
+c2  The topic here is %s.
+c7Here with you:
+ c7(c3%dc7.c5%sc7)
+c7You're here alone.n1
+c3
+c7There's no such room.n1
+c7Sorry, you don't have access to that room.n1
+c7Sorry, you need an invitation.n1
+c7Sorry, you are too old for that room.n1
+c7Sorry, you are too young for that room.n1
+c7Sorry, that room is gender restricted.n1
+c7Sorry, there are no empty rooms available.n1
+c7No memory for a new room!n1
+ c7(c3%dc7:c3%dc7.c5%sc7)
+c7Sorry, that room isn't big enough for another user.n1
+c7Less than %d seconds until lurk timeout!n1q1
+<none>
+---- `0 has entered
+---- `0 has left
+c5n1Conference preferences:n2
+c71.  c3Alias (when allowed)...... c2%sn1
+c72.  c3Default room.............. c2%sn1
+Private
+Lobby
+c73.  c3Private room topic........ c2%sn1
+c74.  c3Display action commands... c2%sn1
+c75.  c3Change your entry messagen1
+c76.  c3Change your exit messagen1
+c77.  c3Change your personal noisen2
+{}
+{}
+{}
+{}
+:c2
+n1c7Enter a new alias: c2
+c7n1Enter a new default topic: c2
+{}
+{}
+c7n1Enter a new entry message.n1: c2
+{}
+{}
+c7n1Enter a new exit message.n1: c2
+{}
+{}
+c7n1Enter a new personal noise.n1: c2
+c5n1Room preferences:n2
+c7 1. c3Topic............. c2%sn1
+c7 2. c3User names........ c2%sn1
+c7 3. c3Gender............ c2%sn1
+c7 4. c3Youngest age...... c2%dn1
+c7 5. c3Oldest age........ c2%dn1
+c7 6. c3Access............ c2%sn1
+c7 7. c3Doors............. c2%sn1
+Closed
+Open
+c7 8. c3Capture file...... c2%s  %sn1
+Open
+Closed
+c7 9. c3Show on /List..... c2%sn1
+c710. c3SIG/Public Room... c2%sn1
+c711. c3Chaos (no names).. c2%sn1
+c712. c3Max room capacity. c2%dn1
+c713. c3Lurk timeout (min) c2%dn1
+c714. c3Noise set #....... c2%dn1
+c715. c3JoinLink Channel.. c2%dn1
+c716. c3Change the room's entry messagen1
+c717. c3Change the room's exit messagen2
+c7Channel for this room (0-23): c2
+:c2
+c7n1Enter a new room topic: c2
+{}
+c7n1Enter (0) Handles (1) Aliases (2) Real Names: c2
+{}
+c7n1Enter (0) Both (1) Female (2) Male: c2
+c7n1Youngest age to allow: c2
+c7n1Oldest age to allow: c2
+c7n1Enter new access for this room: c2
+c7n1Capture filename: c2
+c7File exists. W=Write, A=Append? c2
+Copied attributes of %s (%d)..n1
+{}
+c7n1Enter a new entry message.n1: c2
+c7n1Enter the room capacity (in persons): c2
+c7n1Enter the lurk timeout (in minutes): c2
+c7n1Enter a new exit message.n1: c2
+c7Port, handle, or *=ALL: c2
+c7n1Enter the noise set number (systext:noisesX): c2
+h1
+UserList
+n11)  Account numbern12)  Handlen13)  Real namen14)  Data phonen2Select a display order: 
+n1List handles only [N/y]? ?0
+n1Enter the beginning Handle.n1: 
+n1Enter the beginning Account Number.n1: 
+n1Search patterns:n2
+1.  Handle  : 
+2.  RealName: 
+3.  Data  # : 
+4.  Voice # : 
+5.  Computer: 
+6.  City/St : 
+7.  Country : 
+8.  Access  : 
+{}
+{}
+n1Enter the beginning Real Name.n1: 
+n1Enter the beginning Data phone#.n1: 
+<INACTIVE>n1
+n1#, or ENTER=Begin? 
+n14.  Computer: 
+c7Acc# Handle/name          Data/voice       LastOn Compu From                 AGn1
+q1%4d.  %-20s
+c7%4d %-20.20s c6%16s c4%6.6s %.5s c2%-20.20s c7%sn1
+Account#: %d, %sn1   Data#: %sn1LastCall: %6.6sn1Computer: %sn1    From: %sn1  Access: %s 
+   %c c5%-20.20s c6%16s              c2%s
+%cn1RealName: %sn1  Voice#: %sn1 Country: %sn1
+c7Aborted.n1q1
+c7n1No matches!n1q1
+c7n1%d accounts listed.n1q1
+q1
+%2d) %s
+n1Invalid range of access groups.n1
+Quit!n1
+n1You have not voted on %d Vote topic(s).  Vote now [Y/n]? ?1
+c2(contributed by %s on %s)n1
+You do not have access to add vote topics.n1
+n1There's currently nothing to vote on.n1
+f1n1c3Current Topics (*=You have not voted):n2
+c1%cc7%2dc1:c7%sn1
+n1c2Add#, Edit#, Kill#, Xamine#n1
+n1q0c6Voting (topic#, List, New, Quit)> q1
+f1c1n1Topic #%d  (serial #%d)n1
+c7%sn1
+n1c3     #:Possible answersn1
+c1%s c7%2dc1:c7%s
+n1c3Your Vote: c5%sn1
+<< You have not voted >>
+n1c2Your choice (1-%d%s): c3
+n1c3You have c5%dc3 floats left to distribute.n1
+n1c3     #:Possible answers                        :Floats:Percentn1
+n1c3Users voting: c1%3d.%d %%n1
+n1c3     #:Possible answers                        : Votes:Percentn1
+c1%s c7%2dc1:c7%-40sc1:c2%6dc1:c7%3d.%d %%n1
+q1
+n1Enter item number to Kill: 
+n1Sorry, you can not kill that item.n1
+n1Kill topic %d (%s): are you sure [Y/n]? ?1
+n1Can not find this item to Kill.n1
+n1Killed!!n1
+n1Too many topics or error writing to file.n1
+n1Name of new topic: 
+, 0=Add choice
+Choice #%d: 
+n1Groups to see item         : 
+Minimum age for item       : 
+Maximum age for item       : 
+n1Sorry, there are too many choices already.n1
+n1Sorry, you don't have access to add or modify vote items.n1
+100 float vote item    [N/y]: ?0
+Groups to add to item      : 
+n1Enter item number to Edit: 
+n1Sorry, you can not edit that item.n1
+f1n1
+n1Number of floats to assign here: 
+n1Your floats may total no more than 100.n1w2
+n1Not enough memory to enter the voting booth.n1
+n1c1Continue on to next new vote topic [Y/n]? ?1
+n1You have already voted on all topics.n1
+n1c1Press any key to continue...g0n1
+c7Groups to add: c2
+c7Topic name   : c2
+n1Topic %d does not exist.n1
+c7Access groups: c2
+c7Youngest age : c2
+n1q1Can not find this topic...n1
+c7Reset    [N/y]? c2?0
+c7Oldest age   : c2
+c7n1Edit the topic text file [N/y]? c2?0
+n1c1Press any key to continue...g0n1
+n1q1Erase line to delete choice; enter '+' to insert choice.n2
+Maximum # of choices (minimum 2): 
+Number of floats: 	
+c7Choice #%2d: c2
+{}
+n1q1You can not delete ALL of the choices!n1
+n1Enter item number to Examine: 
+n1Account  Voten1
+%7d  
+%sn1
+----n1
+Aborted. 
+Press any key.g0
+n1Topic %d does not exist.n1
+         %3d %sn1
+n1Item is not linked to a vote topic.n1
+n1Download the LHARC compressed version [N/y]? ?0
+lha >NIL: a sysdata:bbslist/work.lha sysdata:bbslist/bbslist.txt
+n1Temporarily unable to perform this operation.n1
+n1Invalid topic %dn1
+Maintenance
+f1n6c7Auto-maintenance running ...n2
+{}
+{}
+{}
+c6Purge protect   (%3s)c4: c2
+n1c6Enter the country abbreviation (??? for help)c4.n1: c2
+f1n1c6CNet/5 BBSListn1
+n1c3There are c7%d c3systems listed.n1
+BBSList
+n1q0c6BBSList> q1
+{}
+q1
+n1Packing ... one moment.n1
+n1c4(c6AREACODE-NUMBERc4)c6 BBSc4: c2
+n1Search keywords:n2
+n1c7Nat Phone number    Name                      Location              Baudn1
+c3%3.3s c6%15s c7%-25s c3%-20s c5%5sn1
+c2                    %sn1
+c7Aborted.n1
+c7End.n1
+n1c5That number is not on the list!n1
+n1c5You may only edit/kill your own listings.n1
+n1c6Listing removed!n1
+n1c5Sorry, you may not add to the list.n1
+c6Country (?=Help)     c4: c2
+c6Local phone#         c4: c2
+c6Area code            c4: c2
+c6Country/City CODES   c4: c2
+n1c5That's already on the list!n1
+c6Name of this BBS     c4: c2
+c6Its geograph locationc4: c2
+c6Its highest baud ratec4: c2
+c6Additional comments  c4: c2
+{}
+c6n1Number has been added!n1
+{}
+n1Please exit this subboard first.n1
+n1You may not add another subboard to this list.n1
+Title to appear on List    : 
+n1You are already logged in to port %d; terminate that session? [Y/n] ?1
+n1Logging off previous session.  Please wait..n1
+n1Old session could not be terminated.  It is possible that the port is locked.  Try again later and/or notify sysop.n1
+{}
+{}
+Please enter and kill child subboards before killing this subdirectory.n1
+n1
+n1Name not unique - may cause GO command instability, use anyway? [N/y] ?0
+Go Keyword (unique)        : 
+Path to subboard data files: 
+Partition0/CDROM/Net path  : 
+n1Copy from physical sub#    : 
+n1Please exit this subboard first.n1
+n1Subboard number out of range.n1
+n1Kill %s: are you sure [Y/n]? ?1
+n1Delete files also [Y/n]? ?1
+n1BBSCONFIG maximum number of subboards reached.n1
+n1There are users in that subboard!n1
+n1NOTE: could not rename %s as %s.n1
+Enter the partition range  : 
+n1Subboard number out of range.n1
+n1If you are a subop of that subboard, you must enter it first.n1
+None
+Either
+Female
+Male
+Mailing-List
+No
+Sub
+Yes
+{}
+n1WARNING!  Failed to create subboard directories.n1
+Usenet News
+Per call charge
+Daily charge
+Weekly charge
+Monthly charge
+Re-logon command
+Connect time
+OLM command
+Finger command
+Join conference
+InterUserChat
+Area time rate 1
+Area time rate 2
+Area time rate 3
+Area time rate 4
+Area time rate 5
+Area time rate 6
+Area time rate 7
+Area time rate 8
+Area time rate 9
+Door use rate 1
+Door use rate 2
+Door use rate 3
+Feedback sent
+Mail sent
+Mail read
+Mail edit
+Mail kill
+FIDO netmail sent
+INTERNET email sent
+Vote booth time
+Vote booth cast
+Text read rate 1
+Text read rate 2
+Text read rate 3
+Item read
+Item posted
+Item responded
+Item edited
+Item killed
+Yank command
+Local search (Z)
+Global search (ZG)
+Download KB rate 1
+Download KB rate 2
+Download KB rate 3
+Download file rate 1
+Download file rate 2
+Download file rate 3
+Upload KB rate 1
+Upload KB rate 2
+Upload KB rate 3
+Upload file rate 1
+Upload file rate 2
+Upload file rate 3
+UserList time
+BBSList time
+BBSList additions
+Termlink
+Termlink time rate 1
+Termlink time rate 2
+Termlink time rate 3
+Aborted mail send!
+Saving mail..
+h9h1ed!n1
+Dispatching copy to %s.n1
+Done.n1
+FEEDBACK
+NEWUSER
+INBOX
+TRASHCAN
+n1
+n1Message %d is corrupt!q1n1
+Mail-Read
+n1%s cannot be killed.n1
+1.  Nation  : 
+2.  Phone#  : 
+3.  Name    : 
+4.  Location: 
+5.  Comments: 
+<INACTIVE>
+n1Enter keyword number or RETURN to begin: 
+n1Enter up to 5 keywords, separated by spaces:n2
+{}
+{}
+n1Response to "%s"
+n1Post to "%s"
+{}
+Partition %d, bytes free: %dn1
+n1Warning!  Could not rename file(s).n1
+Reloading text/menu..
+h9h6ed!n1
+Could not reload text/menu at this time.n1
+n1Bad subdirectory specification.n1
+n1Working path is %sn1
+{}
+Handle (Name)
+Name (Handle)
+Handle + Name
+Name + Handle
+Handles only
+Names only
+{}
+Kill source items      [Y/n]? ?1
+Re-new item post dates [Y/n]? ?1
+n1List, :, /, or Subboard#: 
+n1Move to which partition     : 
+n1"%s" already exists there! Replace? [Y/n] ?1
+n1[E]nter subdirectory or [i]nsert here [E/i]? 
+n1Move into subdir[e]ctory or [i]nsert here [E/i]? 
+n1This command does not take an argument.n1
+{}
+n1You must supply 2 list #'sn1
+n1Item number(s) out of range.n1
+n1Done.n1
+n1Item number out of range.n1
+{}
+Subdir
+Text
+Arexx
+CNet C
+Dos
+Para
+{}
+{}
+Failed
+Not tested
+Passed
+Not testable
+Def
+No
+Yes
+No
+Yes
+Force
+No
+Yes
+Never
+No
+Ltd
+Ful
+(UNV)
+(ACB1)
+(ACB)
+(CID1)
+(CID)
+(SYS)
+{}
+No action
+Copy to data#
+Must exist
+Must exist/copy
+Must match data#
+Background
+Amaint
+Immediate
+No
+n1Remove this post [Y/n]? ?1
+Delete this file [Y/n]? ?1
+n1Sorry, this list is full.n1
+n1Attempt to rename file [N/y]? ?0
+n1%d "read" items in %s; move them to TRASHCAN? ?1
+n1Empty TRASHCAN? [Y/n] ?1
+No
+Headers
+Headers+Items
+Auto
+@DL
+Query@DL
+@Amaint
+Protected
+{}
+{}
+{}
+n1File not found.  Add anyway [N/y]? ?0
+{}
+{}
+Delete file also [Y/n]? ?1
+{}
+n1%d item(s) killed.n1
+n1This item has no text to be edited.n1
+n1Kill %s: are you sure [Y/n]? ?1
+{}
+{}
+{}
+n1Moving...
+n1Sorting...
+h6ed.n1
+{}
+n1Path to files: 
+{}
+n1Now adding c7%sq1:n1
+n1Text, Arexx, DOS, Para or CNet? 
+(%3dK)  %s
+n1You may not add, kill or modify files outside of this area's directory.n1
+Send e-mail to mailing [L]ist, [S]ender or [B]oth? [L/s/b]? 
+List
+Sender
+Both
+n1SYSOP: must run AREXX first.n1
+n1AllocSignal() failed--can not run program.n1
+n1Timeout error loading external program.n1
+n1Sorry, program is not proper CNet C format.n1
+n1Unable to execute external program.n1
+OFF
+REL
+SON
+NEW
+ACB
+{}
+{}
+n1Custom signature files (*=active):n2
+%c 0.  Default (others override)n1
+%c 1.  EMail/handlesn1
+%c 2.  EMail/real namesn1
+%c 3.  FIDO messages/handlesn1
+%c 4.  FIDO messages/real namesn1
+%c 5.  Other messages/handlesn1
+%c 6.  Other messages/real namesn1
+%c 7.  Upload descriptions/handlesn1
+%c 8.  Upload descriptions/real namesn1
+n1Select one to edit: 
+{}
+%dm %ds
+n1You must be online %d minutes before entering that area.n1
+pipe:arctest%d
+n1q1Now testing "c7%sq1" ...n1
+Not a testable format.n1
+TEST FAILED.n1
+TEST PASSED.n1
+n1q1Now transforming "c7%sq1" ...n1
+n1Item must first pass integrity test!n1
+n1Transformation already attempted.  Again [N/y]? ?0
+n1Not a transformable format.n1
+n1No transformation script found!n1
+execute %s %s %s %s
+{}
+Transformation completed!n1
+Transformation error!n1
+Transform file type already exists--transformation aborted.n1
+File is not online.n1
+USER PURGED:
+TEST FAILED:
+MSGS KILLED:
+LIST KILLED:
+TRANSFORMED:
+MISSING:
+ADOPTED:
+:0n1
+orgz: %s
+n1z4c6orgz:z0 c7v80}
+  c1*RECEIVED*
+No matches found.
+Z complete; %d message(s) matched.  Use RM to read.
+z4c6item:z0 c7v81}c6 of subboard c7v49}q1n1
+z4c6item:z0 c7v81}n1
+z4c6subj:z0 cfv87}n1
+z4c6file:z0 cfv87} ca(v84} bytes, v94}, v85} xfers, v86} cps best)n1
+z4c6from:z0 c7v75}
+n1z4c6to  :z0 c7v77}
+n1z4c6on  :z0 ccv79}
+z4c6info:z0 cf:2
+  c5(v76})
+n1c7#cfv82}c7/v83} :2
+:0q1n1
+  c5(v78})
+=
+file: %s  (%d bytes, %d xfers)
+n1z4c6mess:z0 c7v82}
+z4c6subj:z0 cfv87}n1
+  c2(response to item v81})
+n1Sorry, this message was recently killed.n1
+q1n1
+  c2(item v81})
+mess: %d
+ (PRIVATE MESSAGE)
+Anonymous
+item: %d 
+(response%s)
+from: %s
+to  : %s
+on  : %s
+info: 
+  (%s)
+subj: %s 
+from %s
+WARNING: Maximum Yank file size reached!  Use Yank again to continue.
+Error opening files
+No messages were yanked
+n1Sorry, the yank-task is not currently running.n1
+*Subboard: %s
+%-30.30s %7d bytes, %7d xfers
+: 
+n1Sorry, the Yank Queue is at capacity.  Please try again.n1
+Yank complete.  Use the DS command to download.
+n1You must first download or unselect your existing yank file(s).n1
+n1Restoring lost Yank/QWK packets..
+{}
+Could not complete yank--your select list is full.
+Bad yank parameters!
+n1Please request that the sysop change this for you.n1
+n1Do you want to keep your REAL NAME private [N/y]? ?0
+n1Do you want to keep your BIRTHDAY private [N/y]? ?0
+n1Do you want to keep your STREET ADDRESS private [N/y]? ?0
+n1Do you want to keep your VOICE PHONE private [N/y]? ?0
+n1Do you want to keep your DATA PHONE private [N/y]? ?0
+n1When no remote carrier, use ^Z^Z to exit term mode.n1
+n1Baud rate for dial-out? 
+n1Unable to link with that port.n1
+TermLink In
+TermLink Out
+n1Unable to monitor that port.n1
+n1Activate your keyboard for input also [N/y]? ?0
+n1Now monitoring port %d.  Press ^Z^Z to exit.n2
+PortMonitor
+n2Port monitoring terminated.n1
+%s; %4d messages
+n1Enter Handle or ID# of user to mail-verify:n1: 
+Handle
+Real
+Normal
+Crash
+Hold
+No
+Send
+Request
+Normal
+High
+Low
+This is a Carbon Copy from the subboard: %s
+All
+{}
+n1[A]bort, [F]ilter#-#, [K]eyword#-#, [L]ist, [S]ubs#-#, [Y]ank, [?]: 
+Filter setting #%d: 
+Keyword setting #%d: 
+n1Apply filters to ALL subboards [Y/n]? ?1
+n1Apply keywords to ALL subboards [Y/n]? ?1
+n1Please select a range of subboards.n1
+%3d. %c%c%c  %s
+n1Range not understood!n1
+n1Ok.n1
+{}
+n1q0c6End of item. Respond or Pass> q1
+n1q0c6End of item. Respond, VOte, or Pass> q1
+{}
+n1q0c6More responses. Respond, Pass, or ENTER to continue> q1
+n1q0c6More responses. Respond, Pass, VOte, or ENTER to continue> q1
+{}
+n1q0c6Respond or Pass> q1
+{}
+ To: %-.40s  Subj: %-.40s
+ Subj: %-.40s
+{}
+{}
+n1Subboard members:n2
+%4d. %-25.25s (%s)n1
+%4d. %sn1
+n1Sorry, a membership list has not been compiled.n1
+{}
+{}
+Dialing...n1
+n1TermLink: not configured.n1
+n1TermLink: not enough memory.n1
+n1TermLink: dial-out list is empty.n1
+n1## System name                      Phone                Raten1
+%2d %-32.32s %-20.20s $0.%04d/minn1
+n1Dial which system? 
+n1TermLink: no available dial-out ports.n1
+{}
+Download
+Examine
+Grab
+Kill
+Scan
+Select
+Describe
+Respond to
+Search
+Yank
+Edit
+{}
+Validate
+Test
+Transform
+Edit Attributes
+Move
+[0;36;44m "%s" is not in the dictionary--change anyway [N/y]? 
+[0;36;44m Change ALL occurrences of %s [N/y]? 
+[0;37;44m Dictionary index not found!
+[0;37;44m Dictionary not found!
+[0;36;44m Working...
+[0;36;44m [37mQ[36muit, [37mC[36mhange, [37mG[36muess, [37mL[36mearn, [37mA[36mll-skip, [Skip]? 
+[0;36;44m Aborted.
+[0;36;44m Change to? 
+[0;36;44m Change to [37m%s[36m: [37mY[36mes, [37mQ[36muit, [Next]? 
+[0;37;44m No guesses.
+[0;37;44m Finished.
+[0;37;44m Finished.  Continue from the beginning [Y/n]? 
+Validate
+n1Enter item number(s) to %s:n1: 
+Read
+Download
+Select
+Grab
+Examine
+Test
+Transform
+{}
+{}
+{}
+{}
+Kill
+Edit
+Describe
+There are attached files that will be deleted immediately; continue? [N/y] ?0
+%s deleted.n1
+Could not delete %s.n1
+n1%d. %-23.23s %-27.27s %-20.20sn1
+   $%3d.%02d                 sysop: %-20.20s %sn1
+Private
+n1Select a system from the list, Quit, or press RETURN to continue: 
+n1Search patterns:n2
+1.  Address:  
+2.  System:   
+3.  Location: 
+4.  Sysop:    
+5.  Phone:    
+<INACTIVE>
+n1Set which pattern, or press RETURN to begin: 
+n1No systems were matched.n1
+n1Could not open the nodelist.n1
+n1Searching--use control-C to abort.n1
+{}
+n1The Yank Queue is empty.n1
+n1## Job ID   Type Time     Owner                Statusn1== ======== ==== ======== ==================== =========================n1
+%2d %08x %s %02d:%02d:%02d %-20s %sn1
+n1#(s) to kill, or ENTER to continue: 
+n1Job %08x successfully removed.n1
+n1Job %08x aborted.n1
+n1Job %08x could not be removed.n1
+Queued
+%d messages; %dK
+Mark
+Yank
+n1c6Remote User Informationn1c4-------------------------n1
+c6     User:c3 %sn1
+c6   Region:c3 %dn1
+c6  Address:c3 %sn1
+c6Node Name:c3 %sn1
+c6    Sysop:c3 %sn1
+c6    Phone:c3 %sn1
+c6 Location:c3 %sn1q1
+n1This is not a network mail.n1
+n1Node information not found.n1
+n1Node %s is downn1
+n1c3Sending Mail to..n1
+c7%s c4at c7%s c4in c7%sc4
+c7%s c4(c6localc4)
+c7%s
+n2c3Is this correct? c2?1
+q1n1
+sendmail <%s -f "%s" -R "%s" -t "%s" -s "%s" -raw
+;above line -f=FROM, -R=REALNAME, -t=TO, -s=SUBJECT}
+n1You do not have EMail access.n1
+Feedback from %s, %s: "%s"
+New user application from %s, %s: "%s"
+n1No more aliases allowed.n1
+n1DOS error (%d), changes not saved.n1
+n1Enter name of log to view: 
+Searching for FILE_ID.DIZ in %s..
+h31}h%d}
+#?.readme #?.doc files.bbs
+n1c3Edit Aliasn1c4----------q1n1
+c7Aliasc4: c2
+c7Namec4: c2
+c7Addressc4: c2
+n1c3Add Aliasn1c4----------q1n1
+n1c3Kill Aliasn1c4----------q1n1
+*-
+postnews <%s -f %s -r "%s"
+Sysop mail from %s, %s: "%s"
+n1Use background process for file test? [Y/n] ?1
+n1Use background process for file transform? [Y/n] ?1
+n1Item sent to CNet's file server for testing and/or transformation. You will be notified by OLM or mail when complete.n1
+n1Could not send to file server.  Test/transform may be performed immediately or at next scheduled maintenance.n1
+ram:%d.mgr
+Error %d on file %s: Could not test %s in %s at this time.
+n1You may not edit items that you did not writen1
+n1Scanning for new mail..
+h23}
+n1Adding FILE_ID.DIZ to %s..
+h24}h%d}
+n1FILE_ID.DIZ saved to %sn1
+n1Could not save FILE_ID.DIZ to %sn1
+;cnfingerd stuff starts here - MCI allowed but is stripped except for \nx}
+c4----------------------- --------------------------------q1n1
+----------
+Account: %-29.29s EMail     : %-27.27s
+Handle : %-29.29s RealName  : %-27.27s
+Address: %-29.29s Location  : %-27.27s
+Country: %-29.29s Zip/Postal: %-27.27s
+Voice #: %-29.29s Data #    : %-27.27s
+Private
+Age    : %s (%s years)
+Organization: %s
+No Organization
+User Banner : %s
+No user banner
+First Call: %-26.26s Last Call: %-27.27s
+Access    : %-26.26s Computer : %-27.27s
+No plan.
+Total Calls: %-25.25s Calls  Today: %-23.23s
+Public Msgs: %-25.25s Private Msgs: %-23.23s
+Up Files   : %-25.25s Up Bytes    : %-23.23s
+Down Files : %-25.25s Down Bytes  : %-23.23s
+Who's online at %s
+Not found
+No one is online at presentn1
+;end of cnfingerd text}
+Suspend
+Full Import
+Mailing-List
+{}
+{}
+Telnet:
+%s: 
+Unknown errorn1
+%sn1
+Connection closed.n1
+?Already connected to %sn1
+(to) 
+%s: bad port numbern1
+telnet: tcp/telnet: unknown servicen1
+n1Trying host %s port %ld. Please be patient..n1
+telnet: Unable to connect to remote hostn1
+Connection closed by foreign host.n1
+?Ambiguous commandn1
+?Invalid commandn1
+?Need to be connected first.n1
+[Hostname/IP] [portnumber]: 
+Telnet
+n1c6 ## Name                     Host/IP              Notesq1n1
+c4 == ======================== ==================== ===========================q1n1
+c1%cc7%2d c6%-24.24s c2%-20.20s c5%sq1n1
+n1Could not open bsdsocket.library.  TCP/IP stack not running.  Please try again later.n1
+n1Enter the number of a host to edit: 
+n1NetTrace: output now being written to %s.n1
+n1Could not open %s for write.n1
+n1NetTrace filename: 
+n1%d item(s) removed. %d remain.n1
+n1Enter MODE command (? for help): 
+n1Terminal debug mode now %s.n1
+on
+off
+n1File attach error: Could not find %sw2n1
+fatal error: Could not find encoding method in MIME config.n1g1
+Encoding..
+h5ed!n1
+{}
+%s; NNTPGet beginsn1
+Getting newsgroup list as uunews:active..n1
+Could not connect to %s.n1
+error connecting to server.n1
+%s; NNTPGet endsn1
+%6.6s  IMPORTED %d (%d bad, %d dupes) in %s
+uunews:ACTIVE
+n1User has requested a return-receipt - override now? [N/y]?0
+c7v102 %3.3s} c3v100 %-34.34s} c2:2v101 %s}:0q1n1
+n1c1No subboard found for that GO keyword.q1n1
+n1Enter a number or another GO keyword c4[c6ABORTc4]: q1
+n1c7### GO KEYWORD                         SUBBOARD TITLEq1
+c4==============================================================================q1n1
+n1Enter another keyword/pattern c4[c6ABORTc4]: q1
+MailForward
+Originally From: %s
+     Written On: %s
+  Originally To: %s
+        Subject: %s
+c713c4) c3Mail Sorting      c4: q1%s
+Sys. default
+Newest last
+Newest first
+Subject
+Handle/Name
+n1Select a mail sorting method.n1: 
+MR
+VN
+VF
+n1
+q1n1Mail Filters:n2
+Edit [N]ame/Address filtersn1
+Edit [S]ubject Filtersn1
+n1Choice [?=Help]: 
+{}
+n1c3Mailbox is closed and no forward account is set. Abort MailSendc4? [q1N/yc4] q1?0
+q1Your mailbox has been automatically opened so you can receive mail.
+c7Would you like your mail forwarded to another accountc4? [q1Y/nc4] q1?1
+Enter account/handle of user to receive your mail: 
+n1Mail forward cancelled.
+n1Mail will be forwarded to %s.
+Save OLM to user's mailbox? [Y/n]?1 
+Not enough memory to display all logsn1
+n1z4c6Currently Available logsq1n2
+%2d. %-35.35sn1
+n1ReadLog: 
+n1That was the last log.n1
+n1sysdata:logs is empty.n1
+n1%s deleted.
+n1Could not delete %s
+n1
+sysdata:DizStripText
+n1q1%s:
+c7 2c4) c3Auto-decode MIMEc4:q1 %s
+n1Mail preferences:n2
+c7 1c4) c3Reply-To        c4:q1 %s
+n1Reply-To: 
+	q1:2Include %s? c4[c6Y/n/qc4]:0q1 c6
+YNQ Y
+Auto-decode files in your mail and attach as selectable files? [Y/n] ?1
+n2Enter the # of the item to change, or press ENTER to continue.n1: 
+CNetIRC
+babylon.beyondirc.net:6667
+#cntest
+f1!2>33}z4c6Configurationz0n2
+>29}c7%2dc4. c2%sq1n1
+n1[T]erminal Emulation, [A]ddServer, [D]elete Server, [Q]uit.n1
+Add/edit Server
+Delete Server
+Quit/Exit
+{}
+n1
+n1
+!1Enter an option c4[c6ENTER=c1CONNECTc4]: c2
+q1Enter Choicec4: c2
+f1z4c6IRC Terminal Preferencesq1n2
+c71c4. c2ANSI: c1%sq1n2
+f1z4c6Sysop Configured Serversq1n2
+z4c3###  Name                     Hostname:Port               Auto-Join           z0q1n1
+c7%3d. c2%-24.24s c6%-27.27s %-19.19sq1n1
+f1z4c6User Configured Serversq1n2
+Sysop Config
+[list empty]n1
+c5Enter channel to auto-join: c2
+n2c6Enter name of IRC server c4(c7host:portc4): c2
+c5Enter Description of IRC server: c2
+c1Server added.q1n1
+c1Error adding server.q1n1
+n1q1Enter name of channel to auto-joinc4: c2
+n1q1Join which server c4[c71-%dc4]: c2
+n1c4[c7Ac4]q1dd or c4[c7Ec4]q1dit server? c2
+Add
+Edit
+n2c6Enter number to %s: c2
+n1c1** Invalid number!q1
+Edit
+Delete
+Scrolling
+Locking
+Simple
+{}
+c5Enter REAL name to use for this channel: c2
+c5Enter NICKNAME to use for this channel: c2
+c5Enter QUIT message to use for this channel: c2
+%g%i%q%r%n%s%j%k
+Total Sysop:
+Total Mail:
+Total Mail1:
+Total Posts:
+Total Resps:
+Total ReadTxt:
+Doors Online:
+New Users:
+Total UL:
+Total UL K:
+Total DL:
+Total DL K:
+Mins Used:
+Mins Idle:
+Charges:
+Sysop Mail:
+Mail:
+Mail1:
+Posts Now:
+Resps Now:
+Texts Online:
+Doors Online:
+Current NUsers:
+Current Files:
+Current KBytes:
+Total Calls:
+Calls Logged:
+Active Accounts:
+f1z4c6                                  %.10s                                  z0n1
+n1c4[c7%sc4] c6CNetFTP c4(c1%sc4) n1:c2
+n1c4[c1OPc4]c7en, c4[c1CLc4]c7ose, c4[c1Gc4]c7et, c4[c1Pc4]c7ut, c4[c1PRc4]c7ivate sites, c4[c1PEc4]c7ersonal sites, c4[c1Lc4]c7ast, c4[c1?c4]c7=Helpn1
+Already connected to %s.
+n1Connecting..
+n1
+Connected to %s port %ld.n1
+Connection failed.n1
+Could not create socket.n1
+n1Trying %s...
+%s->
+n1Not connected.n1
+n1Connection closed.n1
+n1Connect to [host] <port>: 
+n1No control connection for command.
+n1Change directory: 
+R=REMOTESITE,O=REMOTEPORT/K/N,D=REMOTEDIR/K,C=LOCALDIR/K,S=CONTROLSCRIPTNAME/K,L=LOGINNAME/K,P=LOGINPASS/K,T=ACCOUNT/K,G=GETFILENAME/K,Q=AUTOQUIT/S,V=DEBUG/S,A=AUTOANON/S,E=PROGRESS/K/N
+AutoLogin() failure!w2n1
+Could not connect to %s:%dn1
+(remote-file) 
+usage: GET remote-file [ local-file ]n1
+%sn1
+(directory-name) 
+usage: RMD directory-namen1
+RMD command not recognized, trying XRMDn1
+MKD command not recognized, trying XMKDn1
+c7%ld q1bytes %s in c7%.2f q1seconds c4(c7%.2f q1kB/sc4)q1n1
+Login: 
+Password: 
+Account: 
+n1No directory information buffered.n1
+n1Transferred: n1
+^1}>13}%ld bytes (%s)n1
+%.1f%% of %ld bytes
+size unknown
+n1Abort transfer? [N/y] ?0
+usage: PUT remote-file [ local-file ]n1
+(local-file) 
+%s exists; resume txfer [Y/n]? ?1
+f1
+z4c3CNet SplitChatc6                                                                 
+z4                                                                               
+c7[1;55HCTRL-T = Toggle chat modec6
+z0
+q1f1
+f1
+%ld OLM(s) Waiting
+n1CNet start:  %s (%s)
+n1Port start:  %s (%s)
+%ld year
+%ld week
+%ld day
+%ld hour
+%ld minute
+%ld second
+, 
+ and 
+ ago
+just booted
+just sent
+s
+ from now
+n1z4c6System Up-timesz0
+n1
+n1c2Controlc5:  c6%s c4(c6%sc4)
+n1c2Port %2dc5:  c6%s c4(c6%sc4)
+q1n1
+(remote-files) 
+usage: MGET remote-filesn1
+continue? [Y/n] ?1
+%s %s? [Y/n] ?1
+ITEM UPDATED:
+From: %s
+[DIR]
+%ld
+c7%3d. %s%-24.24s %s%9.9s q1
+:2c7%s:0q1
+n1c4[c7Dc4]c6eletec4, [c7Ec4]c6xaminec4, [c7*c4]=c6Select, c4[c7RETURNc4]=c6Nextn1
+n1FileMaint: 
+n1Delete %s? [Y/n/a/q] 
+YNAQ
+{}
+{}
+All!n1
+Quit!n1
+%s deleted.n1
+n1Could not delete %s because:
+Directory %s not empty.  You must delete the files within first.n1
+n1unknown error.
+n1Press any key..g1n1
+c5
+c2
+c1
+c6
+n1You are already at the root directory.n1
+n1That directory is empty.n1
+QP XHBZUKMCARNILED  <-- hotkeys for ANSI mode; corresponds with menu hotkeys [] below
+z1                                                                              z0
+z4                                                                              z0
+z1c7[ENTER]=Examine, [UP], [DWN], [Q]uit, [P]arent, [Space]=Select, [X], [H]elpz0
+z1c7[B]=BBS command, [Z]=Search, [U]ploadz0
+z1c7[D]elete, [M]ove, [C]opy, M[a]kedir, [R]enamez0
+z1c7[N]ew path, F[i]lenote, Volume [L]ist, [K]=Run doorz0
+z4Path: %-50.50s %21.21sz0
+%ld selected
+f1
+z4Directory empty!z0
+z4Internal error; can not find item. :(z0
+z4%sz0
+%s selected
+%s unselected
+Max selections per batch reached.
+%-25.25s %9ld %-38.38s
+{}
+{}
+>
+ 
+z4c3BBS Command: cf
+z0
+Invalid command..w1
+Not empty. You must delete the files within first!
+failed
+unknown
+%s deleted
+z4c3Makedir: cf
+z4c3New Path: cf
+%-35.35s %-38.38s
+z4c3Filenote: cf
+%s is read-only
+[3J
+z4c3Examining %s..cf
+CNet Commander Help
+Volume/Assign list
+%s
+[DIR] %s
+[VOL] %s
+[ASN] %s
+z4c3Getting directory %s..cf
+z4c3Move to/as: cf
+%s moved as %s
+z4c3Copy to/as: cf
+z4c3Rename as: cf
+z4c3Amiga[D]OS/[C]NetC/[A]Rexx or [P]aragon? cf
+z4c3%s door path/filename: cf
+AmigaDOS
+CNetC
+ARexx
+Paragon
+{}
+{}
+{}
+{}
+{}
+z4c3Search pattern (wildcards allowed): cf
+z4c3Recurse into subdirectories? [N/y] ?0 cf
+z4c3Searching.. please be patient..cf
+z4c3Upload filename: cf
+z4c3Uploading..cf
+z4c3That command cannot be executed in local mode.cf
+!
+Directory empty.
+n1Partition c7%dq1: c7%d%% q1of c7%s q1used, c7%s q1free.
+n1ARexx Item filing...
+h6ed!n1
+h8ailed!n1
+TelnetD
+Telnet ports are active; dump users?
+Dump them!
+NO!!
+Download selected items
+_SysInfo
+_UserInfo
+_Config
+{}
+_Mail
+_Files
+_Yanks
+_News
+{}
+{}
+_Quit
+_Doors Closed
+Fi_les Closed
+Mess_ages Closed
+N_o New Users
+Syso_p In
+CNet/5 Control Panel
+Run
+Iconify
+Menufy
+Show Interface
+Snapshot Position
+Quit
+CNet
+Iconify
+Text/menu reload
+Write setup
+Write & LOCK setup
+About CNet
+Quit
+Actions
+Clear chat call
+Clear line
+Close port
+OnLine Message
+Internet
+SMTPd
+Telnetd
+Configuration
+Config
+Cron
+MIME
+FTN
+Update Check
+Bug Report
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+n1Add to global server list [Y/n]? q1?1
+f1
+n1
+Archivers
+IMP
+n1No E-mail header exists for this item.n1
+c9copied. (%d bytes)q1n1
+n1Entering the BBS core..n1
+That command cannot be used on non-file/msg areas.n1
+Could not find subboard with go key of "%s"n1
+Subboard: %s (%s)n1
+          %d item%s, %d file%s, %ld byte%s; %sn1
+s
+
+You must supply a subboard GO arg or be in the subboard you wish to sizen1
+n1Enter a new value for transfer progress: 
+{}
+<HTML><HEAD><TITLE>Authorization failed</TITLE></HEAD><h1>Authorization failed</h1>Sorry, you must have an account and use your login/password for authorization.</html>
+Config
+General
+Archivers
+IMP
+Cron
+Mime
+Edit
+Users
+Subboards
+FTN
+UpdateCheck
+Bug Report
