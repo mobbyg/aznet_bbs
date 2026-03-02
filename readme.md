@@ -1,8 +1,8 @@
 ![](anet_logo.png)
 
-# ANet BBS
+# AZNet BBS
 
-ANet BBS is a Python-based Bulletin Board System project inspired by classic BBS software. The project is under active development.
+AZNet BBS is a Python-based Bulletin Board System project inspired by classic BBS software. The project is under active development.
 
 ---
 
