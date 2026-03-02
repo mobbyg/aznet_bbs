@@ -1,0 +1,18 @@
+c3z4Telnet MODE command promptz0
+
+c7Cc6har       c5:  :2c7Disable LINEMODE option.:0
+c7Lc6ine       c5:  :2c7Enable LINEMODE option.:0
+c7DSc6=DoSig   c5:  :2c7Enable signal trapping.:0
+c7NSc6=NOSIG   c5:  :2c7Disable signal trapping.:0
+c7DEc6=DOEDIT  c5:  :2c7Enable character editing.:0
+c7NEc6=NOEDIT  c5:  :2c7Disable character editing.:0
+c7DTc6=DOTABX  c5:  :2c7Enable tab expansion.:0
+c7NTc6=NOTABX  c5:  :2c7Disable tab expansion.:0
+c7Bc6inary     c5:  :2c7Switch to binary mode.:0
+c7Ac6scii      c5:  :2c7Switch to ASCII mode.:0
+c7RBc6         c5:  :2c7Receive in BINARY mode.:0
+c7RAc6         c5:  :2c7Receive in ASCII mode.:0
+c7XBc6         c5:  :2c7Transmit in BINARY mode.:0
+c7XAc6         c5:  :2c7Transmit in ASCII mode.:0
+c7TDc6=TTYDEBUGc5:  :2c7Print debug output to screen.:0
+c7ECHOc6       c5:  :2c7Toggle literal character echo.:0

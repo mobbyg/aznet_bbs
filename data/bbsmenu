@@ -1,0 +1,541 @@
+1; Maintenance menu .. NOTE don't use #'s 15, 19, 28, 29
+   VF, VIEW Feedback
+   VN, VIEW New
+   EA, Edit Account
+   EG, Edit Group
+   WF, Write File
+   RF, Read File
+   AM, Activity Monitor
+   LC, Call Log
+   LU, Transfer Log
+   DUmp
+   RL, Read Log
+   RUN
+   DD, Download Direct
+   *D
+   VS, VIEW Sysop
+   RRM
+   RT,Reload Text
+   LA~RL maint
+   TRANSpose
+   MK,Mail Kill
+
+2; Available everywhere
+   Help
+   Chat
+   Time
+   Feedback
+   INFo
+   NU, New User
+   STatus
+   PW, Change Password
+   FInger, UI
+   MAIL
+   MS
+   MR
+   CRedits
+   AG, Activity Graph
+   WHo
+   OLm, On Line Message
+   HIde
+   MUffle
+   UM, User Monitor
+   ET, EDit TERMinal
+   EP, EDit PREFS
+   EU, EDit USER
+   CC, Chat Call
+   ACcount
+   WHY
+   IDentify
+   EF, EDit FInger
+   *C
+   SS
+   DS
+   RM
+   FIND
+   NF
+   NM
+   NSal
+   FReq
+   QWK
+   YQ, Yank Queue
+   ACB
+   RELogon
+   Off,LOGOFF
+   SHell
+   TERm
+   MONitor
+   UPtime
+   DM,Dir Maint
+   DIRSize   |#2cnet:doors/dirsize}
+   MV~MAIL;VERIFY
+   MA~MAIL;ALIAS
+
+3; The new Base menu
+   SA~SG NEW
+   RA~RG NEW PREVIEW
+   YA~YG NEW PREVIEW
+   BA~BG NEW
+   AL, Add List
+   KL, Kill List
+   EL, Edit List
+   ML
+   YG, Yank Global
+   SG, Scan Global
+   RG, Read Global
+   BG, Browse Global
+   List,Scan
+   ENtry
+   Xit
+   ?
+   :
+   /,Quit
+   ZG
+   GO
+   Join
+   DRop
+   ALM
+   PArts
+
+4; The new Message/File Area menu
+   SN~Scan NEW
+   RN~Read NEW PREVIEW
+   YN~Yank NEW PREVIEW
+   BN~Browse NEW PREVIEW
+   Again
+   Browse
+   Download
+   Examine
+   TYPE,Grab
+   Kill,DELete
+   NOTE,NEw
+   /Scan,List,DIR
+   Post
+   Scan
+   /,Quit
+   Upload
+   Validate
+   AO, Adopt Orphans
+   Xit
+   ENtry
+   *
+   ?
+   Write
+   REspond
+   Z, SEArch
+   Yank
+   TEst
+   TRansform
+   INvite
+   ORder
+   CD
+   EDit
+   VOte
+   RR
+   CArbon
+   MEmbers
+   VIew
+   ATtribute
+   MOve
+   >
+   <
+   GO
+   DRop
+   Read
+   EL, Edit List
+   :
+   PArts
+
+5; Respond or Pass?
+   Download
+   Examine
+   Grab
+   Respond
+   Quit
+   Again
+   Validate
+   ?
+   *,SElect
+   Write
+   ATtribute
+   New
+   Kill
+   Last
+   .
+   OVer
+   +
+   -
+   >,Pass
+   TEst
+   TRansform
+   POst
+   EDit
+   Scan
+   Z, SEArch
+   VOte
+   Yank
+   <
+
+6; Text/Doors list
+   /,Quit
+   Scan
+   Post
+   AO
+   Edit
+   ATtribute
+   Kill
+   Add
+   ALPhabetize
+   ?
+   /Scan,List
+   Download
+   *
+   Xit
+   ENtry
+   MOve
+   :
+   GO
+
+7; Read mail
+   ?
+   Group
+   Reply
+   RA,Reply All
+   FOrward
+   /,:
+   List
+   CF,Create Folder
+   KF,Kill Folder
+   MOve
+   Kill,DElete
+   Quit
+   Scan
+   Again
+   *,SElect
+   Download
+   GRAB
+   Examine
+   EDit
+   Yank
+   NETinfo
+   RRM
+   REScan
+   HEAder
+
+8; New-scan subboard selection
+   List
+   Filter
+   Keyword
+   Subboards
+   Yank
+   ?
+   Abort
+
+9; Read-all
+   Post
+   Skip
+   Quit
+   Abort
+   Continue
+   Drop
+   ?
+
+10; Editor-empty or with text
+   *
+   Zip
+   Abort
+   Save
+   New
+   /,.
+   O
+   Wrap
+   Visual
+   >
+   ?,Help
+   Quote
+   Get
+
+11; Editor-with text only
+   Insert
+   Mciread
+   Read
+   List
+   Edit
+   K
+   Toggle
+   Delete
+   Border
+   Copy
+   Justify
+   Find
+   $
+   Put
+
+12; Editor justify options
+   Left
+   Right
+   Pack
+   Center
+   Expand
+   Indent
+   Unindent
+
+13; Scan for new at logon
+   Read~RG NEW PREVIEW
+   Browse~BG NEW
+   List
+   RG
+   BG
+   Yank
+   Cancel
+   ?
+   Quit
+
+14; Bbslist
+   Add
+   Kill
+   List,Scan
+   Quit
+   ?
+   *
+   Download
+   Edit
+
+16; Conference
+   ?
+   List
+   Room
+   Quit
+   COntrol
+   PAss
+   Invite
+   Uninvite
+   X,Edit
+   XR,Edit Room
+   PErmanent
+   NAme
+   SAve
+   Verify
+
+17; Mail
+   ?
+   Quit
+   Read
+   Write,Send
+   Alias
+   Verify
+   Prefs
+   Nodelist
+   FILter
+
+18; Vote
+   Scan,List
+   Add
+   Kill
+   Quit
+   Edit
+   Xamine
+   New
+   ?
+
+20; Browse
+   Quit
+   Read
+   *
+   Download
+   ?
+   Grab
+   Examine
+   Pass
+   .,Again,Over
+   Kill,DELete
+   EDit
+   TEst
+   TRansform
+   Write
+   Validate
+   PArts
+
+21; Mail-Alias
+   ?
+   Quit
+   Scan
+   Add
+   Kill
+   Edit
+
+22; Message Quote
+   List
+   Add
+   Quit
+   Step
+   Response
+
+23; Alternate BBSTEXT/MENU prompt (example)
+   English
+   French
+
+24; Abort/Logout prompt before file transfer
+   Abort
+   Logout
+
+25; Join/Visit prompt in base
+   Join
+   Visit
+
+26; Reading OLM's
+   Pass
+   Again
+   Reply
+   Quit
+   .,Over
+   ?
+   Save
+
+27; Scan for new at base entry
+   Yes
+   Browse
+   Scan
+   No
+   Read
+
+30; Computer types; list no more than 32
+   Amiga
+   Commodore 64, 128
+   Apple 8 bit, GS
+   Macintosh
+   Atari
+   UNIX based
+   IBMPC/compatible
+   Tandy/Radio Shack
+   Other terminal
+
+31; Reading messages ("mess" option)
+   Respond
+   Quit
+   Again
+   ?
+   Pass
+   POst
+   Download
+   Examine
+   Grab
+   *
+
+38; Mail-Send options
+   Priority
+   Copyself
+   Receipt
+   Delivery
+   File
+   Signature
+   Name
+   Expire
+   Quote
+
+;39; "Main" Menu ... remove ;'s to use as a "root" menu.
+;   Pfiles~GO PFILES
+;   Gfiles~GO GFILES
+;   News~GO NEWS
+;   Base~GO BASE
+;   Udbase~GO UDBASE
+;   GO
+;   Vote    |#2cnet:doors/vote}
+;   UList    |#2cnet:doors/ulist}
+;   List   |#2cnet:doors/bbslist}
+;   Join   |#2cnet:doors/join}
+
+40; Telnet - be careful not to conflict command keys with EVERYWHERE commands
+   OPen,COnnect
+   CLose,Bye
+   Quit
+   STATus
+   ?
+   List
+   AH,Add Host   `31
+   EH,Edit Host   `31
+   DIsplay
+   NT,Net Trace   `31
+   KH,Kill Host   `31
+   MODE
+
+41; Telnet MODE/Toggle commands
+   C,Char
+   L,Line
+   DS,Do Sig
+   NS,No Sig
+   DE,Do Edit
+   NE,No Edit
+   DT,Do Tabx
+   NT,No Tabx
+   Binary
+   Ascii
+   RB,Receive Binary
+   RA,Receive Ascii
+   XB,Xmit Binary
+   XA,Xmit Ascii
+   TD,Tty Debug
+   ?
+
+42; LogRead/ReadLog (the RL command)
+   ?,Menu
+   Kill
+   Quit
+   Scan,List
+
+43; Mail filters (MAIL;FIL command)
+   Q,Quit
+   ?,Menu
+   N,Name Filter
+   S,Subject Filter
+
+44; CNetIRC main menu
+   Q,Quit
+   T,Terminal Defaults
+   A,Add Server
+   D,Delete Server
+   E,Edit Server
+
+45; Mail File-attach menu
+   ?,Menu
+   A,Adopt
+   U,Upload Attach
+   E,Encoding Options
+
+46; CNet FTP Menu
+   ?,MENU
+   Q,Quit
+   OP,Open,ATDT,COnnect
+   CL,Close
+   GE,Get,Download
+   PU,Put,Upload
+   PE,Personal Sites
+   PUB,Public Sites
+   CD,Current Directory
+   CDUP
+   LCD,Local Current Directory
+   PWD,Print Working Directory
+   DIRectory
+   LS,Scan
+   MKdir,Make Directory
+   RMDir,Remove Directory
+   BINary,IMage
+   ASCii
+   REFresh
+   DEBug
+   Noop
+   REGet,GResume
+   MGet,Multi Get
+   CP,Change Progress
+
+47; User Filedir Maintenance
+   ?,Menu
+   Q,Quit
+   K,Kill
+   E,Examine
+   *
+   /,Parent
+   L,Scan
+   D,Download Selected
+
+48; You can put your own menus here ... up to #50

@@ -1,0 +1,22 @@
+c7z5Gfiles, Pfiles and News command promptsz0
+
+c7Dc6ownload c5:  :2c7Download a text file.:0
+c7Oc6ff      c5:  :2c7Leave the system (Goodbye):0
+c7Qc6uit     c5:  :2c7Quit back to the Main> prompt.:0
+c7Sc6can     c5:  :2c7List the items available:0
+c7/c6        c5:  :2c7Return to the previous list of items (from a subdirectory).:0
+c7nc6        c5:  :2c7Enter any item number to read or execute that item.:0
+
+Want to see the maintenance commands [No]? ?0t70 #0}je 5}
+c7Ac6dd      c5:  :2c7Add an item to the current list of items:0
+c7ALc6       c5:  :2c7Add a subdirectory to the list of items:0
+c7AOc6       c5:  :2c7Adopt orphan files found on the drive:0
+c7ATc6tributec5:  :2c7Edit the Path, Access, Description, etc. of an item:0
+c7Ec6dit     c5:  :2c7Edit the text of an item. (Text files only).:0
+c7ELc6       c5:  :2c7Edit the CURRENT subdirectory's configuration:0
+c7ENc6try    c5:  :2c7Edit the Entry text file for the current subdirectory:0
+c7EXc6it     c5:  :2c7Edit the Exit text file for the current subdirectory:0
+c7Kc6ill     c5:  :2c7Kill an item:0
+c7MLc6 x y   c5:  :2c7Move item x to item position y.:0
+c7Pc6ost     c5:  :2c7Write a text file and add it to the list of items.:0
+c7Xc6        c5:  :2c7Alphabetize the list of items:0

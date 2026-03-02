@@ -1,0 +1,11 @@
+c7z5The Respond or Pass command promptz0
+
+c7Ac6gain    c5:  :2c7Read the current message again.:0
+c7POc6st     c5:  :2c7Post a brand new item.:0
+c7Qc6uit     c5:  :2c7Quit a multiple item read command.:0
+c7Rc6espond  c5:  :2c7Post a message in response to this one.:0
+
+c7Dc6ownload c5:  :2c7If this is a file, dowload it now.:0
+c7*c6        c5:  :2c7If this is a file, select for later download:0
+c7Ec6xtract  c5:  :2c7If this is a file, list archive contents (ARC,LZH,etc):0
+c7Gc6rab     c5:  :2c7If this is a file, display its ASCII or HEX contents.:0

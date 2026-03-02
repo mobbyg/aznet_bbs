@@ -1,0 +1,14 @@
+c7z5Reading On-Line Messages (OLM's)...z0
+
+c7Ac6gain    c5:  :2c7Re-read the current OLM:0
+c7CCc6       c5:  :2c7Ask for or accept a chat with this user:0
+c7FIc6nger   c5:  :2c7Ask for information about this user:0
+c7HIc6de     c5:  :2c7Don't allow this user to see you by using the WHO command:0
+c7Mc6ail     c5:  :2c7Send e-mail to this user:0
+c7MUc6ffle   c5:  :2c7Stop further OLM's from this user:0
+c7Oc6ver     c5:  :2c7Re-read all of your OLM's:0
+c7Pc6ass     c5:  :2c7Read your next OLM (or just press RETURN):0
+c7Qc6uit     c5:  :2c7Quit reading OLM's (unread OLM's will be lost):0
+c7Rc6eply    c5:  :2c7Send an OLM in reply to the current OLM:0
+c7Sc6ave     c5:  :2c7Save the current OLM in your system mailbox:0
+c7WHc6o      c5:  :2c7Who's on the system?:0

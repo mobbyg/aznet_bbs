@@ -1,0 +1,5 @@
+This is a test to determine if your terminal is able to display ANSI color.  The following lines should appear as indicated.
+
+        c1This line should be RED.
+        c7This line should be WHITE.
+        c4This line should be BLUE.q1

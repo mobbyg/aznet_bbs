@@ -1,0 +1,42 @@
+c7z5v49} subboard command promptz0
+
+c7Bc6rowse   c5:  :2c7Scan item titles pausing to allow reading and selecting. (BN,BA):0t53 #0}je 1}
+c7Dc6ownload c5:  :2c7Receive a file from the system (DS for Selected).:01}
+c7EDc6it     c5:  :2c7Edit the text of an item.:0t53 #0}je 7}
+c7Ec6xamine  c5:  :2c7Display the contents of an archive (LZH,ARC,ZOO,ZIP).:0
+c7Gc6rab     c5:  :2c7Display the contents of a file (in ASCII or HEX).:07}
+c7Kc6ill     c5:  :2c7Delete and remove an item.  May require special access.:0
+c7NEWc6      c5:  :2c7Change the date that determines which items are NEW.:0t51 #0}je 2}
+c7Pc6ost     c5:  :2c7Post a brand-new item.:02}
+c7Qc6uit     c5:  :2c7Quit back to the Main> prompt.:0
+c7Rc6ead     c5:  :2c7Read items.  RN for Read New, RA for Read Global New.:0t52 #0}je 3}
+c7RESc6pond  c5:  :2c7Add a response to the end of an item.:03}
+c7Sc6can     c5:  :2c7Scan items.  SN for Scan New.:0t54 #0}je 4}
+c7Uc6pload   c5:  :2c7Send file(s) to the system.:04}
+c7Yc6ank     c5:  :2c7Assemble items to be downloaded and read later (YA also).:0
+c7Zc6        c5:  :2c7Search all items for text.  (also ZG to search globally).:0t53 #0}je 5}
+c7*c6        c5:  :2c7Mark an item to be downloaded.  *C to clear, S to download these.:05}
+
+Want to see more [Yes]? ?1t70 #0}je 100}
+c7z5Moving between subboards and subboard preferencesz0
+
+c7CAc6rbon   c5:  :2c7Enable/disable carbon-copy mail messages.:0
+c7DRc6op     c5:  :2c7Don't visit a subboard during Global or <> commands.:0
+c7Jc6oin     c5:  :2c7Un-drop a subboard.:0
+c7Lc6ist     c5:  :2c7List the subboards available from this prompt.:0
+c7ORc6der    c5:  :2c7Select a preferred item arrangement.:0
+c7VIc6ew     c5:  :2c7View the list of subboard operators.:0
+c7< >c6      c5:  :2c7Move to the previous (or next) subboard.  (Skips DROPPED subs).:0
+c7/c6        c5:  :2c7Return to the PREVIOUS LIST of subboards (from a subdirectory).:0
+c7:c6        c5:  :2c7Return to the ROOT subboard list.:0
+
+Want to see the maintenance commands [No]? ?0t70 #1}jn 100}
+c7AOc6 n     c5:  :2c7Adopt files from the subboard's directory.:0
+c7ATc6tributec5:  :2c7Edit the title, flags, and other variables of an item.:0
+c7ELc6       c5:  :2c7Edit this subboard's configuration.:0
+c7ENc6try    c5:  :2c7Edit this subboard's ENTRY text message.:0
+c7INc6vite   c5:  :2c7Invite/uninvite users to this subboard.:0
+c7MOc6ve     c5:  :2c7Move an item to another subboard.:0
+c7RRc6       c5:  :2c7Repair and re-organize the subboard data files.:0
+c7Vc6alidate c5:  :2c7Validate a new upload to be downloaded.:0
+c7Xc6it      c5:  :2c7Edit this subboard's EXIT text message.:0100}

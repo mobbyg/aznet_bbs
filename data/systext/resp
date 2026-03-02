@@ -1,0 +1,3 @@
+Normally, posts and responses are read "continuously"--one following right after the last.  You may instead choose to have a prompt between each message.
+
+You may also choose from one of two ANSI message display techniques-- "ANSI/More? paging" where you are shown a page at a time, and "ANSI scrolling" where the message scrolls continously beneath its header.

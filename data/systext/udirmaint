@@ -1,0 +1,11 @@
+c7z5DirMaint Command Promptz0
+
+c2?/MENUc6   c5:  :2c7Display this menu:0
+c2Qc6uit     c5:  :2c7Quit UDirMaint:0
+c2Dc6elete   c5:  :2c7Delete a file, range of files or files matching a given DOS pattern:0
+c2Ec6xamine  c5:  :2c7Examine a file, range of files or files matching a given DOS pattern:0
+c2*        c5:  :2c7Select a file, range of files or files matching a given DOS pattern:0
+c2/        c5:  :2c7Return to the previous/parent directory:0
+
+c5You may also enter the number of a file (the number to the far left) to begin browsing from that file forward. If the number entered is a directory, you will be placed inside that directory and may then operate on the files within.:0
+q1

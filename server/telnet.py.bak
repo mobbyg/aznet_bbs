@@ -1,0 +1,384 @@
+"""
+server/telnet.py — Asyncio Telnet Server
+
+This module:
+  1. Starts an asyncio TCP server listening for Telnet connections.
+  2. Performs Telnet protocol negotiation (the IAC command layer).
+  3. Strips Telnet control bytes from the data stream so the session
+     code never sees raw IAC sequences — it just sees clean input.
+  4. Enforces the MAX_NODES limit.
+  5. Assigns each connection a node slot and launches a BBSSession.
+
+TELNET PROTOCOL BASICS:
+─────────────────────────────────────────────────────────────────────────────
+Telnet is defined in RFC 854.  It sits on top of raw TCP and adds a thin
+control layer using the byte 0xFF (255, called IAC = "Interpret As Command").
+
+Key IAC sequences (each is 3 bytes: IAC, verb, option):
+  IAC WILL (251) <option>  → "I will use this option"
+  IAC WONT (252) <option>  → "I won't use this option"
+  IAC DO   (253) <option>  → "Please use this option"
+  IAC DONT (254) <option>  → "Please don't use this option"
+
+Options we negotiate:
+  1  = ECHO              — we want the SERVER to echo (not the client terminal)
+  3  = SUPPRESS-GO-AHEAD — suppress Telnet's half-duplex mode
+  31 = NAWS              — client reports its window size (rows/columns)
+  24 = TTYPE             — client reports its terminal type (e.g. "ANSI", "VT100")
+
+Our strategy:
+  • Send IAC WILL ECHO    → we'll handle echoing characters
+  • Send IAC WILL SGA     → suppress go-ahead (full-duplex mode)
+  • Send IAC DO SGA       → ask client to also suppress go-ahead
+  • Send IAC DO NAWS      → ask client to tell us its window size
+  • When we receive DO ECHO from client → reply WILL ECHO (confirm)
+  • When we receive WILL NAWS → reply DO NAWS, then wait for SB NAWS
+  • All other IAC sequences → strip and ignore for now
+─────────────────────────────────────────────────────────────────────────────
+"""
+
+import asyncio
+import logging
+from pathlib import Path
+
+from config import Config
+from server.terminal import BBSText
+from server.session import BBSSession
+
+log = logging.getLogger('anet.telnet')
+
+# Telnet command bytes
+IAC   = 0xFF   # 255 — Interpret As Command
+WILL  = 0xFB   # 251
+WONT  = 0xFC   # 252
+DO    = 0xFD   # 253
+DONT  = 0xFE   # 254
+SB    = 0xFA   # 250 — Start of sub-negotiation
+SE    = 0xF0   # 240 — End of sub-negotiation
+
+# Telnet option codes
+OPT_ECHO  = 1
+OPT_SGA   = 3    # Suppress Go-Ahead
+OPT_TTYPE = 24
+OPT_NAWS  = 31   # Negotiate About Window Size
+
+
+# --------------------------------------------------------------------------
+# Negotiation helper
+# --------------------------------------------------------------------------
+
+def _iac(*bytes_) -> bytes:
+    """Convenience: build an IAC sequence from a list of byte values."""
+    return bytes([IAC, *bytes_])
+
+
+# What we send immediately upon connection to set up the terminal
+_INITIAL_NEGOTIATION = (
+    _iac(WILL, OPT_ECHO)   +   # We will echo
+    _iac(WILL, OPT_SGA)    +   # Suppress go-ahead
+    _iac(DO,   OPT_SGA)    +   # Ask client to suppress go-ahead too
+    _iac(DO,   OPT_NAWS)       # Ask client to report window size
+)
+
+
+# --------------------------------------------------------------------------
+# Telnet stream wrapper
+# --------------------------------------------------------------------------
+
+class TelnetReader:
+    """
+    Wraps asyncio.StreamReader to transparently strip IAC sequences.
+
+    When you call readline() or read(), you get clean data with all Telnet
+    control bytes already removed.  The session code never has to think
+    about IAC at all.
+
+    It also absorbs the responses to our initial negotiation so those
+    bytes don't pollute the first thing the user types.
+    """
+
+    def __init__(self, raw_reader: asyncio.StreamReader, writer: asyncio.StreamWriter):
+        self._raw    = raw_reader
+        self._writer = writer
+        self._buf    = bytearray()   # clean data buffer, IAC-stripped
+
+    async def readline(self) -> bytes:
+        """
+        Read until we see \\r\\n or \\n, returning the line including the newline.
+        Blocks (yields to event loop) until a complete line is available.
+        """
+        while True:
+            # Check if there's already a complete line in the buffer
+            for nl in (b'\r\n', b'\n'):
+                idx = self._buf.find(nl)
+                if idx != -1:
+                    end = idx + len(nl)
+                    line = bytes(self._buf[:end])
+                    del self._buf[:end]
+                    return line
+
+            # Need more data from the network
+            chunk = await self._raw.read(256)
+            if not chunk:
+                # Connection closed
+                return b''
+            self._process(chunk)
+
+    async def read(self, n: int = 1) -> bytes:
+        """Read up to n bytes of clean data."""
+        while len(self._buf) < n:
+            chunk = await self._raw.read(256)
+            if not chunk:
+                return bytes(self._buf)
+            self._process(chunk)
+        result = bytes(self._buf[:n])
+        del self._buf[:n]
+        return result
+
+    def _process(self, chunk: bytes) -> None:
+        """
+        Walk through raw bytes.  IAC sequences are parsed and handled here;
+        everything else is appended to the clean buffer.
+        """
+        i = 0
+        while i < len(chunk):
+            b = chunk[i]
+
+            if b == IAC:
+                # IAC sequence — needs at least 2 more bytes
+                if i + 1 >= len(chunk):
+                    # Incomplete; push remaining back (rare edge case)
+                    break
+                verb = chunk[i + 1]
+
+                if verb in (WILL, WONT, DO, DONT):
+                    if i + 2 >= len(chunk):
+                        break
+                    option = chunk[i + 2]
+                    self._handle_negotiation(verb, option)
+                    i += 3
+
+                elif verb == SB:
+                    # Sub-negotiation: IAC SB ... IAC SE
+                    # Find the IAC SE terminator
+                    end = i + 2
+                    while end < len(chunk) - 1:
+                        if chunk[end] == IAC and chunk[end + 1] == SE:
+                            break
+                        end += 1
+                    sub_data = chunk[i + 2: end]
+                    self._handle_subneg(sub_data)
+                    i = end + 2   # skip past IAC SE
+
+                elif verb == IAC:
+                    # Escaped 0xFF literal — add as data byte
+                    self._buf.append(IAC)
+                    i += 2
+
+                else:
+                    # Unknown 2-byte IAC command (NOP, DM, etc.) — skip
+                    i += 2
+
+            elif b == 0:
+                # Null bytes — common telnet padding, discard
+                i += 1
+
+            else:
+                self._buf.append(b)
+                i += 1
+
+    def _handle_negotiation(self, verb: int, option: int) -> None:
+        """
+        Respond to IAC WILL/DO/WONT/DONT from the client.
+
+        The rules:
+        • If client says DO ECHO → we already said WILL ECHO, no need to repeat.
+        • If client says WONT something we asked for → acknowledge with DONT.
+        • If client says WILL NAWS → confirm with DO NAWS (window size coming).
+        • Most other options → politely refuse.
+        """
+        if verb == DO and option == OPT_ECHO:
+            # Client acknowledging our WILL ECHO — no reply needed
+            pass
+
+        elif verb == WILL and option == OPT_NAWS:
+            # Client will send window size — confirm
+            self._writer.write(_iac(DO, OPT_NAWS))
+
+        elif verb == WILL and option == OPT_SGA:
+            # Client confirms SGA suppression — good
+            pass
+
+        elif verb == WONT:
+            # Client refusing an option — send DONT to acknowledge
+            self._writer.write(_iac(DONT, option))
+
+        elif verb == WILL:
+            # Client offering an option we didn't explicitly ask for — decline
+            self._writer.write(_iac(DONT, option))
+
+        elif verb == DO:
+            # Client asking us to do something we haven't committed to — refuse
+            if option not in (OPT_ECHO, OPT_SGA):
+                self._writer.write(_iac(WONT, option))
+
+        # Note: we don't await drain() here because we're inside a sync method.
+        # The bytes are queued in the writer buffer and will be sent on the next drain().
+
+    def _handle_subneg(self, data: bytes) -> None:
+        """
+        Handle IAC SB sub-negotiation data.
+        Currently we log NAWS (window size) for future use.
+        """
+        if not data:
+            return
+        option = data[0]
+        if option == OPT_NAWS and len(data) >= 5:
+            cols = (data[1] << 8) | data[2]
+            rows = (data[3] << 8) | data[4]
+            log.debug("NAWS: %d cols x %d rows", cols, rows)
+            # TODO: store on session for word-wrap in Milestone 3
+
+
+# --------------------------------------------------------------------------
+# Node slot manager
+# --------------------------------------------------------------------------
+
+class NodeManager:
+    """
+    Tracks which node slots (0 … MAX_NODES-1) are in use.
+    Thread-safe enough for asyncio (single-threaded event loop).
+    """
+
+    def __init__(self, max_nodes: int):
+        self._max   = max_nodes
+        self._slots : set[int] = set()   # currently occupied node IDs
+
+    def acquire(self) -> int | None:
+        """
+        Claim the lowest available node slot.
+        Returns the node_id (int) or None if all nodes are full.
+        """
+        for i in range(self._max):
+            if i not in self._slots:
+                self._slots.add(i)
+                return i
+        return None
+
+    def release(self, node_id: int) -> None:
+        """Return a node slot to the pool."""
+        self._slots.discard(node_id)
+
+    @property
+    def active_count(self) -> int:
+        return len(self._slots)
+
+
+# --------------------------------------------------------------------------
+# Server class
+# --------------------------------------------------------------------------
+
+class TelnetServer:
+    """
+    The top-level Telnet server.
+
+    Usage:
+        server = TelnetServer()
+        await server.start()
+        # now running; await server.stop() to shut down gracefully
+    """
+
+    def __init__(self):
+        self._nodes   = NodeManager(Config.MAX_NODES)
+        self._bbstext = BBSText(Config.BBSTEXT_PATH)
+        self._server  : asyncio.Server | None = None
+
+    async def start(self) -> None:
+        """
+        Launch the asyncio TCP server.
+
+        asyncio.start_server() does three things:
+          1. Binds to the host:port.
+          2. Starts listening for connections.
+          3. For every new connection, calls our _handle_connection callback
+             as a new asyncio Task (so each connection runs concurrently).
+        """
+        self._server = await asyncio.start_server(
+            client_connected_cb = self._handle_connection,
+            host                = Config.TELNET_HOST,
+            port                = Config.TELNET_PORT,
+        )
+        addr = self._server.sockets[0].getsockname()
+        log.info("ANet Telnet server listening on %s:%d", *addr)
+        log.info("Max nodes: %d", Config.MAX_NODES)
+
+    async def serve_forever(self) -> None:
+        """Block (but yield to event loop) until the server is stopped."""
+        async with self._server:
+            await self._server.serve_forever()
+
+    async def stop(self) -> None:
+        """Gracefully stop the server."""
+        if self._server:
+            self._server.close()
+            await self._server.wait_closed()
+            log.info("Telnet server stopped.")
+
+    async def _handle_connection(
+        self,
+        raw_reader: asyncio.StreamReader,
+        writer: asyncio.StreamWriter,
+    ) -> None:
+        """
+        Called by asyncio.start_server() for every new TCP connection.
+
+        This is itself a coroutine, so it's run as an asyncio Task — meaning
+        multiple connections are handled concurrently without threads.
+
+        Steps:
+          1. Check node availability.
+          2. Send initial Telnet negotiation bytes.
+          3. Wrap the raw reader in our IAC-stripping TelnetReader.
+          4. Create and run a BBSSession.
+          5. Release the node slot when done.
+        """
+        peer = writer.get_extra_info('peername')
+        peer_str = f"{peer[0]}:{peer[1]}" if peer else "unknown"
+
+        # ── Node slot ──────────────────────────────────────────────────────
+        node_id = self._nodes.acquire()
+        if node_id is None:
+            log.warning("All nodes full — rejecting %s", peer_str)
+            writer.write(b"\r\nSorry, all lines are busy.  Please try again later.\r\n")
+            await writer.drain()
+            writer.close()
+            return
+
+        try:
+            # ── Telnet negotiation ─────────────────────────────────────────
+            writer.write(_INITIAL_NEGOTIATION)
+            await writer.drain()
+
+            # Small pause so the client can process our negotiation before
+            # we start sending BBS content
+            await asyncio.sleep(0.1)
+
+            # ── Wrap reader, start session ─────────────────────────────────
+            clean_reader = TelnetReader(raw_reader, writer)
+            session = BBSSession(
+                node_id = node_id,
+                reader  = clean_reader,   # type: ignore[arg-type]
+                writer  = writer,
+                bbstext = self._bbstext,
+                peer    = peer_str,
+            )
+
+            log.info("Node %d assigned to %s  (%d/%d nodes active)",
+                     node_id, peer_str,
+                     self._nodes.active_count, Config.MAX_NODES)
+
+            await session.run()
+
+        finally:
+            self._nodes.release(node_id)
+            log.info("Node %d released", node_id)

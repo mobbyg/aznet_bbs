@@ -1,0 +1,3 @@
+Control-key macros give you the ability to enter a control code, and have the system automatically enter a line of text for you.  You may use these macros for commands or text that you use most often.  The special character ` may be used in a control-key macro to perform a carriage-return.
+
+In addition to the three control key macros, there is a special macro--the "logon" macro.  This text is automatically entered into the system as soon as you logon.  Command stacking using the ; character is useful here.

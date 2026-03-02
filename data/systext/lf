@@ -1,0 +1,1 @@
+If you see only the number "2" on your screen, your terminal requires line feeds.  If you see BOTH the numbers "1" and "2" on your screen, your terminal does NOT require line feeds.

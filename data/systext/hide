@@ -1,0 +1,3 @@
+This option allows you to automatically have the system "hide from" and "muffle" other ports as you logon.  That is, other users will not be able to see you by using the WHO command, and will not be able to send you on-line messages.
+
+It is useful to Muffle your OWN port if you do not wish to see your own messages in a conference. To manually control Hiding and Muffling in any other way, use the HIDE and MUFFLE commands.

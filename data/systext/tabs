@@ -1,0 +1,4 @@
+If your terminal supports ANSI TABS, the following two lines will be aligned one on top of the other.  If not, they will be unaligned.
+
+                This is the tab test line.
+	    	This is the tab test line.

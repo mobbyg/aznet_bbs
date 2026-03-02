@@ -1,0 +1,58 @@
+c7z5Places to go from the Main> command prompt:z0
+
+c7Bc6ase     c5:  :2c7The public message base and discussion area:0
+c7Gc6files   c5:  :2c7The general text files base.  Documentation, stories, articles.:0
+c7Jc6oin     c5:  :2c7CNet's MultiUser party conferencing rooms:0
+c7Lc6ist     c5:  :2c7List of other BBS's:0
+c7Nc6ews     c5:  :2c7System news and bulletins:0
+c7Oc6ff      c5:  :2c7Leave the system (Goodbye):0
+c7Pc6files   c5:  :2c7The program files base.  Games, utilities, other features.:0
+c7ULc6       c5:  :2c7List the users of this system.  Pattern matching is possible.:0
+c7Uc6ploads  c5:  :2c7The upload and download files base.:0
+c7Vc6ote     c5:  :2c7Vote on various topics, surveys and questionnaires.:0
+
+Want to see more [Yes]? ?1t70 #0}je 10}
+c7z5Additional commands available at all command prompts (>):z0
+
+c7ACc6count  c5:  :2c7Give your account balance, and summary of charges for this call.:0
+c7Cc6hat     c5:  :2c7Ask a system operator to enter chat mode with you.:0
+c7CRc6edits  c5:  :2c7Give your total and usable file transfer credits.:0
+c7EFc6       c5:  :2c7Edit your FINGER file.:0
+c7EPc6       c5:  :2c7Edit your system preferences.:0
+c7ETc6       c5:  :2c7Edit your terminal parameters.:0
+c7EUc6       c5:  :2c7Edit your user profile.:0
+c7Fc6eedback c5:  :2c7Send a private message to the system operators.:0
+c7FIc6nger   c5:  :2c7Ask for information about any user.:0
+c7FINDc6     c5:  :2c7Locate/display files available to you.:0
+c7Hc6elp     c5:  :2c7Ask for help with or more information about any topic.:0
+c7INFOc6     c5:  :2c7Specific information about this system.:0
+c7Mc6ail     c5:  :2c7Send private mail to any other user.:0
+c7MRc6       c5:  :2c7Read the private messages that others have sent to you.:0
+c7NFc6       c5:  :2c7Browse/download files uploaded since your last call:0
+c7NSc6       c5:  :2c7Browse/yank new messages:0
+c7PWc6       c5:  :2c7Change your password.:0
+c7STc6atus   c5:  :2c7Display your current status.:0
+c7Tc6ime     c5:  :2c7What time is it?  How long have I been on?  How much time left?:0
+
+Want to see more [Yes]? ?1t70 #0}je 10}
+c7z5Ways to communicate with other users now on the system (from any prompt):z0
+
+c7CCc6       c5:  :2c7Ask another user to enter chat mode with you.:0
+c7HIc6de     c5:  :2c7Don't allow others to see you by using the WHO command.:0
+c7MUc6ffle   c5:  :2c7Stop OLM's from coming from another port.:0
+c7OLMc6      c5:  :2c7Send an on-line message.  Will appear on the user's screen.:0
+c7UMc6       c5:  :2c7Receive a message each time a user logs on and off:0
+c7WHc6O      c5:  :2c7Who's on the system?:0
+
+Want to see more [Yes]? ?1t70 #0}je 10}
+c7z5Other miscellaneous commands:z0
+
+c7AGc6       c5:  :2c7Display a graph of system activity.  % of use versus time of day.:0
+c7IDc6entify c5:  :2c7Remote sysops must use this to gain maintenance access.:0
+c7MMc6       c5:  :2c7MultiMail.  Send a message to multiple users, optional party mail.:0
+c7MVc6       c5:  :2c7Verify mail after it has been sent. (Main>):0
+c7NUc6       c5:  :2c7Re-read the new user message.:0
+c7RELc6ogon  c5:  :2c7Re-logon to the system without disconnecting the line. (Main>):0
+c7WHYc6      c5:  :2c7Tell why the last file transfer failed.:0
+c7ACBc6      c5:  :2c7New users: have the system call you back to receive higher access.:0
+ja 11}10}

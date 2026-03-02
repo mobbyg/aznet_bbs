@@ -1,0 +1,28 @@
+c7z5Mail-Read command promptz0
+
+c7*c6        c5:  :2c7Select attached file(s):0
+c7/c6        c5:  :2c7Open another message folder:0
+c7Ac6gain    c5:  :2c7Read current message again:0
+c7CFc6       c5:  :2c7Create a new message folder:0
+c7Dc6ownload c5:  :2c7Download attached file(s):0
+c7EDc6it     c5:  :2c7Edit the contents of a message:0
+c7Ec6xamine  c5:  :2c7View archive contents of attached file(s):0
+c7FIc6nger   c5:  :2c7Finger author of the current message:0
+c7FOc6rward  c5:  :2c7Send message(s) to another user's mailbox:0
+c7GRABc6     c5:  :2c7View contents of file(s) Hex or ASCII (F mail only):0
+c7Kc6ill     c5:  :2c7Move message(s) to the trashcan:0
+c7Lc6ist     c5:  :2c7List your message folders:0
+c7MOc6ve     c5:  :2c7Move message(s) to another folder:0
+c7Qc6uit     c5:  :2c7Stop mail-read. The trashcan will be emptied.:0
+c7Rc6eply    c5:  :2c7Reply to a message:0
+c7RAc6       c5:  :2c7Reply to all:0
+c7RFc6       c5:  :2c7Remove a message folder:0
+c7Sc6can     c5:  :2c7Scan message dates/subjects:0
+c7RESc6can   c5:  :2c7Rescan mailbox to receive/retrieve new mail:0
+c7HEAc6der   c5:  :2c7Display the e-mail header for the current item:0
+
+c2Press ENTER to read the NEXT message, or enter any valid message number to go-to and read a specific message.
+
+c7Want to see the maintenance commands [No]? ?0t70 #0}je 15}
+c7EAc6       c5:  :2c7Edit the sender's account:0
+c7Gc6roup    c5:  :2c7Change the sender's access group:0

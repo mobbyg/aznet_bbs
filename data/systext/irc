@@ -1,0 +1,26 @@
+c7z5Functions available in CNetIRC:z0
+
+c7/help          c5:  :2c7ALL commands available on the IRC SERVER:0
+c7/join {channel}c5:  :2c7JOINs a channel you specify:0
+c7/list          c5:  :2c7List all channels available (Could be LONG):0
+c7/me {text}     c5:  :2c7Prints to channel as * YOURNICK {TEXT}:0
+c7/msg {NICK}    c5:  :2c7Send a Private message to {NICK}:0
+c7/nick {NICK}   c5:  :2c7Change your nick to {NICK}:0
+c7/notice {NICK} c5:  :2c7Send a Private NOTICE to {NICK}:0
+c7/part {channel}c5:  :2c7PARTs a channel you specify:0
+c7/ping {NICK}   c5:  :2c7Sends a PING to {NICK} to check "lag":0
+c7/Quit {TEXT}   c5:  :2c7QUITS/EXITS CNetIRC with opt. {TEXT} as reason:0
+c7/server {serv} c5:  :2c7Changes to the server you specify:0
+
+c1Hit a key to continue...q1g1
+
+q1A number of EVERYWHERE commands are available to you as well, just
+preceed them with \, such as \olm {user} or \WHO.
+
+If you have joined multiple channels, using ^R (Control-R) will change
+between them.
+
+You can clear your screen by issuing the command /c
+
+c7Hit a key to return to CNetIRC...q1g1
+

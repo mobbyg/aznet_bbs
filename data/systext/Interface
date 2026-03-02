@@ -1,0 +1,6 @@
+CNet/4 features a new command interface for reading messages and traversing different subboards and subdirectories.  With CNet/4, The slash (/) must pre-empt the subboard number when you wish to go to a new subboard. (ie /4 to go to subboard number 4 on the list).
+Entering a number x while in CNet/4 mode will tell CNet you wish to read message number x.  You may still use Rx (where 'x' is the number of a message) also.
+
+CNet/3 mode forces CNet/4 to switch to a pseudo 3.x emulation.  With this emulation enabled, you will enter a number alone to move to a subboard.  When reading messages in CNet/3 mode, you are required to enter an 'R' before the message number.  ie. "R5" to read message number 5 in the current subboard.
+
+Please choose the mode you desire.

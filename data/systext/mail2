@@ -1,0 +1,23 @@
+c7z5Mail-Read command promptz0
+
+c7Ac6gain    c5:  :2c7Read current message again:0
+c7Dc6ownload c5:  :2c7Download attached file(s) (F mail only):0
+c7*c6        c5:  :2c7Select attached file(s) (F mail only):0
+c7Ec6xamine  c5:  :2c7View archive contents of file(s) (F mail only):0
+c7FIc6nger   c5:  :2c7Finger author of the current message:0
+c7FOc6rward  c5:  :2c7Send message(s) to another user's mailbox:0
+c7GRABc6     c5:  :2c7View contents of file(s) Hex or ASCII (F mail only):0
+c7Kc6ill     c5:  :2c7Kill/unkill message(s):0
+c7Lc6ist     c5:  :2c7List message recipients (B and P mail only):0
+c7Pc6ass     c5:  :2c7Continue to the next message:0
+c7Qc6uit     c5:  :2c7Stop mail-read. Un-read mail will be kept.:0
+c7Rc6eply    c5:  :2c7Reply to a message:0
+c7Sc6can     c5:  :2c7Scan message headers:0
+
+c2Press RETURN to read the NEXT message, or enter any valid message number(s) to goto and read specific messages.
+
+c7Want to see the maintenance commands [No]? ?0t70 #0}je 15}
+c7EAc6       c5:  :2c7Edit the sender's account:0
+c7Gc6roup    c5:  :2c7Change the sender's access group:0
+c7Nc6oreceiptc5:  :2c7Cancel the requested return-receipt:0
+c7Wc6rite    c5:  :2c7Enter the editor with this message. (Allow you to .Put it).:0
