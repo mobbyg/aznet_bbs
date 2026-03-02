@@ -83,3 +83,10 @@ Contribution guidelines: TBA
 ❌ File areas: upload/download system (not started)<br>
 ⚠️ Access groups: basic system exists, but no full management (need VDE screens for group creation/editing)<br>
 ❌ SysOp configuration UI: not started (would be like CNet's CONFIG program)<br>
+
+## Milestone 4 (Planned)
+
+   * SSH support
+   * Doors / external programs
+   * Networking concepts
+
