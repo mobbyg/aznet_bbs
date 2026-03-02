@@ -61,7 +61,7 @@ This project is licensed under the GPL License.
 Contribution guidelines: TBA
 
 ---
-Milestone 1 (COMPLETED)<br>
+## Milestone 1 (COMPLETED)<br>
 ✅ Async telnet server<br>
 ✅ User login system<br>
 ✅ SQLite database<br>
@@ -69,15 +69,14 @@ Milestone 1 (COMPLETED)<br>
 ✅ Basic main menu<br>
 ✅ CNet-style text handling<br>
 
-All items done
 
-Milestone 2 (❌ NOT STARTED)
+## Milestone 2 (🟡 IN PROGRESS)
 
-* SysOp Control Panel
-* IPC
-* real-time monitoring (This would be a separate GUI/TUI application)
+⚠️ SysOp Control Panel (Created and talking to API/Server, no controls wired in yet)<br>
+❌ IPC<br>
+❌ real-time monitoring (This would be a separate GUI/TUI application)<br>
 
-Milestone 3 🟡 IN PROGRESS (~60% done)<br>
+## Milestone 3 🟡 IN PROGRESS (~60% done)<br>
 
 ✅ Message bases: reading, posting, thread navigation, visual editor<br>
 ⚠️ Message bases: still need RESPOND to posts (replies), thread depth display<br>
