@@ -1,4 +1,5 @@
-![](anet_logo.png)
+
+<img width="1080" height="720" alt="Screenshot From 2026-02-10 22-47-16" src="https://github.com/user-attachments/assets/7ef8e41a-3c6a-41b3-8223-c75da364d33e" />
 
 # AZNet BBS
 
