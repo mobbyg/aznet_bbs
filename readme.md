@@ -1,5 +1,5 @@
 ![](anet_logo.png)
-# ANet BBS - Curent Release: pre Alpha v.01A
+# AZNet BBS - Curent Release: pre Alpha v.01A
 
 This is the start of a replacement for CNet Pro BBS for the Amiga. With the lack of support or information with CNet, and the lack of classic hardware and emulation solutions limiting some of the features of the software, a replacement is needed. Something that will run on modern machines and still give you the great experience that Sysops and users could get with CNet on the Commodores and the Amigas. 
 
