@@ -35,8 +35,8 @@ AZNet BBS is a Python-based Bulletin Board System project inspired by classic BB
 Clone the repository:
 
 ```bash
-git clone https://github.com/mobbyg/anet_bbs.git
-cd anet_bbs
+git clone https://github.com/mobbyg/aznet_bbs.git
+cd aznet_bbs
 ```
 ## Usage
 
