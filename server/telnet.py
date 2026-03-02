@@ -34,8 +34,9 @@ import asyncio
 import logging
 
 from config import Config
-from server.terminal import BBSText
+from server.terminal import BBSText, BBSMenu
 from server.session import BBSSession
+from server.systext import SystextFile
 
 log = logging.getLogger('anet.telnet')
 
@@ -89,10 +90,11 @@ class TelnetReader:
     _BS_SEQ = bytes([0x08, 0x20, 0x08])   # backspace, space, backspace
 
     def __init__(self, raw_reader: asyncio.StreamReader, writer: asyncio.StreamWriter):
-        self._raw    = raw_reader
-        self._writer = writer
-        self._buf    = bytearray()
-        self.echo    = True
+        self._raw     = raw_reader
+        self._writer  = writer
+        self._buf     = bytearray()
+        self.echo     = True
+        self.raw_keys = False  # when True: BS/DEL pass through raw (for VDE)
 
     async def readline(self) -> bytes:
         """
@@ -191,7 +193,10 @@ class TelnetReader:
 
             # ── Backspace / Delete ────────────────────────────────────────
             elif b in (0x08, 0x7F):
-                if self._buf and self._buf[-1] not in (0x0A, 0x0D):
+                if self.raw_keys:
+                    # VDE character mode: pass through raw so read_key sees it
+                    self._buf.append(b)
+                elif self._buf and self._buf[-1] not in (0x0A, 0x0D):
                     self._buf.pop()
                     if self.echo:
                         self._writer.write(self._BS_SEQ)
@@ -275,6 +280,8 @@ class TelnetServer:
     def __init__(self):
         self._nodes   = NodeManager(Config.MAX_NODES)
         self._bbstext = BBSText(Config.BBSTEXT_PATH)
+        self._bbsmenu = BBSMenu(Config.BBSMENU_PATH)
+        self._systext = SystextFile(Config.SYSTEXT_DIR)
         self._server: asyncio.Server | None = None
 
     async def start(self) -> None:
@@ -324,6 +331,8 @@ class TelnetServer:
                 reader=clean_reader,   # type: ignore[arg-type]
                 writer=writer,
                 bbstext=self._bbstext,
+                bbsmenu=self._bbsmenu,
+                systext=self._systext,
                 peer=peer_str,
             )
 

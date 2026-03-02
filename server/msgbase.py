@@ -43,7 +43,8 @@ CREATE TABLE IF NOT EXISTS subboards (
     created_by   TEXT    NOT NULL DEFAULT 'SysOp',
     created_at   TEXT    NOT NULL,
     post_count   INTEGER NOT NULL DEFAULT 0,
-    last_post_at TEXT
+    last_post_at TEXT,
+    is_active    INTEGER NOT NULL DEFAULT 1
 );
 
 CREATE TABLE IF NOT EXISTS messages (
@@ -75,6 +76,10 @@ def init_message_tables() -> None:
     """Create message base tables if they don't exist.  Safe to call repeatedly."""
     with get_connection() as conn:
         conn.executescript(MSGBASE_SCHEMA)
+        # Migration: add is_active to existing subboards tables
+        cols = [r[1] for r in conn.execute("PRAGMA table_info(subboards)").fetchall()]
+        if 'is_active' not in cols:
+            conn.execute("ALTER TABLE subboards ADD COLUMN is_active INTEGER NOT NULL DEFAULT 1")
         conn.commit()
     log.debug("Message base tables ready.")
 
@@ -109,20 +114,56 @@ def get_subboard(subboard_id: int) -> sqlite3.Row | None:
 
 
 def get_all_subboards() -> list[sqlite3.Row]:
-    """Return all subboards ordered by id."""
+    """Return all active subboards ordered by id."""
     with get_connection() as conn:
         return conn.execute(
-            "SELECT * FROM subboards ORDER BY id"
+            "SELECT * FROM subboards WHERE is_active = 1 ORDER BY id"
         ).fetchall()
 
 
 def get_subboards_for_user(user_ag: int) -> list[sqlite3.Row]:
-    """Return subboards where read_ag <= user_ag (boards the user can see)."""
+    """Return active subboards where read_ag <= user_ag (boards the user can see)."""
     with get_connection() as conn:
         return conn.execute(
-            "SELECT * FROM subboards WHERE read_ag <= ? ORDER BY id",
+            "SELECT * FROM subboards WHERE read_ag <= ? AND is_active = 1 ORDER BY id",
             (user_ag,),
         ).fetchall()
+
+
+def update_subboard(
+    subboard_id:  int,
+    name:         str | None = None,
+    description:  str | None = None,
+    read_ag:      int | None = None,
+    write_ag:     int | None = None,
+) -> bool:
+    """Update editable fields on a subboard. Returns True if found."""
+    fields, vals = [], []
+    if name        is not None: fields.append('name = ?');        vals.append(name)
+    if description is not None: fields.append('description = ?'); vals.append(description)
+    if read_ag     is not None: fields.append('read_ag = ?');     vals.append(max(0, min(31, read_ag)))
+    if write_ag    is not None: fields.append('write_ag = ?');    vals.append(max(0, min(31, write_ag)))
+    if not fields:
+        return False
+    vals.append(subboard_id)
+    with get_connection() as conn:
+        cur = conn.execute(
+            f"UPDATE subboards SET {', '.join(fields)} WHERE id = ? AND is_active = 1",
+            vals,
+        )
+        conn.commit()
+    return cur.rowcount > 0
+
+
+def deactivate_subboard(subboard_id: int) -> bool:
+    """Soft-delete a subboard. Returns True if found and deactivated."""
+    with get_connection() as conn:
+        cur = conn.execute(
+            "UPDATE subboards SET is_active = 0 WHERE id = ? AND is_active = 1",
+            (subboard_id,),
+        )
+        conn.commit()
+    return cur.rowcount > 0
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -160,6 +201,29 @@ def get_thread_list(subboard_id: int) -> list[sqlite3.Row]:
             """,
             (subboard_id,),
         ).fetchall()
+
+
+def get_new_counts(subboard_id: int, since: str) -> tuple[int, int]:
+    """
+    Return (new_root_posts, new_responses) for a board since `since`.
+
+    new_root_posts  — root messages (thread_id = id) posted after since
+    new_responses   — non-root messages posted after since
+    """
+    with get_connection() as conn:
+        new_posts = conn.execute(
+            """SELECT COUNT(*) FROM messages
+               WHERE subboard_id = ? AND thread_id = id
+               AND is_deleted = 0 AND posted_at > ?""",
+            (subboard_id, since),
+        ).fetchone()[0]
+        new_resps = conn.execute(
+            """SELECT COUNT(*) FROM messages
+               WHERE subboard_id = ? AND thread_id != id
+               AND is_deleted = 0 AND posted_at > ?""",
+            (subboard_id, since),
+        ).fetchone()[0]
+    return (new_posts, new_resps)
 
 
 def get_thread_list_since(subboard_id: int, since: str) -> list[sqlite3.Row]:
@@ -339,4 +403,4 @@ def get_last_visit(user_id: int, subboard_id: int) -> str | None:
 # ─────────────────────────────────────────────────────────────────────────────
 
 def _now() -> str:
-    return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S")
+    return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.%f")
