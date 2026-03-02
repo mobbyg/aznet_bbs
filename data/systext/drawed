@@ -1,0 +1,13 @@
+c5CNet/3 ANSI Draw Editor control commands:
+
+c7^K   c6Kill        c2Erase all steps that follow the current step
+c7^N   c6Shift       c2Toggle between extended characters and normal
+c7^T   c6Text        c2Set text color, field, and other attributes
+c7^V   c6Verify      c2Re-display the sequence to the current step
+c7^X   c6Exit        c2Abort, save, or help
+
+c7^P   c6Play        c2Display (or continue) the ANSI sequence
+c7^A   c6Reverse     c2Move one step backward in the sequence
+c7^Z   c6Forward     c2Move one step forward in the sequence
+
+To add steps, just move the cursor to the desired point on the screen, and type.  Backspace will delete the current step.

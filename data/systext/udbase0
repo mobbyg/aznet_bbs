@@ -1,0 +1,26 @@
+c7z5The Upload and Download base command promptz0
+
+c7BAc6       c5:  :2c7Scan new item titles pausing to allow reading and selecting:0
+c7DSc6       c5:  :2c7Download the items you have selected.:0
+c7Qc6uit     c5:  :2c7Quit back to the Main> prompt.:0
+c7RAc6       c5:  :2c7Read all new items on all subboards.:0
+c7SAc6       c5:  :2c7Scan all new items on all subboards.:0
+c7SSc6       c5:  :2c7Display the list of files you have selected.:0
+c7YAc6       c5:  :2c7Assemble all new messages to be downloaded and read later.:0
+
+Want to see more [Yes]? ?1t70 #0}je 5}
+c7z5Moving between subboardsz0
+
+c7DRc6op n   c5:  :2c7Don't visit a subboard during Global or <> commands.:0
+c7Jc6oin n   c5:  :2c7Un-drop a subboard.:0
+c7Lc6ist     c5:  :2c7List the subboards available from this prompt.:0
+c7/c6        c5:  :2c7Return to the PREVIOUS LIST of subboards (from a subdirectory).:0
+c7:c6        c5:  :2c7Return to the ROOT subboard list.:0
+
+Want to see the maintenance commands [No]? ?0t70 #1}jn 5}
+c7ALc6       c5:  :2c7Add a new subboard to the current list of subboards.:0
+c7ELc6       c5:  :2c7Edit a subboard's configuration.:0
+c7ENc6try    c5:  :2c7Edit this subboard's ENTRY text message.:0
+c7KLc6       c5:  :2c7Kill a subboard and its contents.:0
+c7MLc6 x y   c5:  :2c7Move subboard x to subboard position y.:0
+c7Xc6it      c5:  :2c7Edit this subboard's EXIT text message.:0

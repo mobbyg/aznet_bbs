@@ -1,0 +1,11 @@
+If your terminal has "simple" ANSI capability, you will see the following text change as indicated:
+        This line should look normal.
+        u1This line should be underlined.u0
+        o1This line should be bold type.o0
+        r1This line should be reverse video.r0
+
+Also, with the use of simple ANSI cursor movement, you should see the word "ANSI" spelled out below.
+        >4I<2S<2N<2A
+
+If your terminal has "full" ANSI capability, you will see the word "manhattan" below.  If not, you may see "mantanhat" or some other nonsense.
+	mantan<3[3@hat

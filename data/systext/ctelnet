@@ -1,0 +1,20 @@
+c3z4Telnet command promptz0
+
+c7Qc6uit     c5:  :2c7Close current connection if connected, and exit telnet:0
+c7OPc6en     c5:  :2c7Connect to a remote site:0
+c7Lc6ist     c5:  :2c7List of popular/pre-configured telnet sites:0
+c7CLc6ose/c7Bc6yec5:  :2c7Close site currently connected to:0
+c7STATc6us   c5:  :2c7Current status of telnet environment:0
+c7DIc6splay  c5:  :2c7display operating parameters:0
+c7MODEc6     c5:  :2c7Toggle telnet opertaing mode paramaters:0
+c7?c6        c5:  :2c7This menu file:0
+
+c3You can also enter the number of any pre-defined host to connect to it.
+
+z4c3Other BBS Commands such as WHO, CHAT, FEEDBACK, MAIL etc, are also available.q1
+
+c7Want to see the maintenance commands [No]? ?0T70 #0}je 15}
+c7AHc6       c5:  :2c7Add a new host to the telnet host list:0
+c7EHc6       c5:  :2c7Edit a currently existing host:0
+c7KHc6       c5:  :2c7Delete a currently existing host:0
+c7NTc6       c5:  :2c7Set/enable NetTrace file for debug output:0

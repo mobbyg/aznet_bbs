@@ -1,0 +1,64 @@
+CNet/3 Line Editor commands:
+
+All editor commands are termed "dot" commands, because in order to activate one, you must first press a period (.) at the beginning of any line.  Here are the essential commands:
+
+.A     Abort, return to prompt         .D  *  Delete lines
+.E   * Edit lines                      .I     Insert before a line
+.L   * List lines (w/line #s)          .N     Clear all text, start over
+.R   * Read what you've entered        .S     Save text, return to prompt
+
+Want to see more [No]? ?0t70 #0}je 5}
+.B     Put a border around text        .C   * Copy lines to insert point
+.F   * Find a string of characters     .G     Read file into editor (sysop)
+.H     This help menu                  .J   * Justify text lines
+.K   * Replace lines with new ones     .M   * Read text (interpret MCI also)
+.O     Toggle lines numbers on/off     .P     Put text into a file (sysop)
+.Q     Quote text from last message    .T   * Toggle paragraph markers ()
+.V     The ANSI visual editor          .W     Toggle word wrap on/off
+.Z     ZIP ASCII or Xmodem transfer    .>     Set the right margin
+.$   * Search and replace text         .*     Execute a BBS command (eg WHO)
+
+Read range (*) selection info [No]? ?0t70 #0}je 5}
+For many commands, you may specify a RANGE of lines on which to perform their function.  These commands have been marked with asterisks (*).  Here're some examples of valid range specifications:
+
+     5     Line 5 only
+   5-10    Lines 5 through 10
+    1,7    Lines 1 and 7
+5-10,14    Lines 5 through 10 and 14
+
+If a 'range' command is executed without specification, or with line numbers out of range, C-Net will use these defaults:
+
+    LAST line:   Delete, Edit, Replace
+    ALL lines:   List, Read, Find, Copy
+   FIRST line:   Insert
+
+Read "justify" options [No]? ?0t70 #0}je 5}
+There are currently 7 different ways that you can justify text:
+
+   Right:   :2move text to right border:0
+    Left:   :2move text to left border:0
+  Center:   :2move text to center of screen:0
+  Expand:   :2add spaces to fill line:0
+  Packed:   :2remove extra spaces:0
+  Indent:   :2add a space to the beginning of the line:0
+Unindent:   :2remove a space from the beginning of the line:0
+
+Read control character information [No]? ?0t70 #0}je 5}
+Several control key commands are available to expedite the editing process. To use a function, hold down the CONTROL key, and press one of the following letters:
+
+  B    :2Move to the beginning of the line:0
+  N    :2Move to the end of the line:0
+
+  D    :2Delete character under cursor:0
+  K    :2Delete to the end of line:0
+
+  T    :2Move left  1 character:0
+  U    :2Move right 1 character:0
+
+  W    :2Move left  1 word:0
+  R    :2Move right 1 word:0
+
+  V    :2Verify (reprint) text so far:0
+  X    :2Cancel line (start over):0
+
+5}n1Back to the editor:

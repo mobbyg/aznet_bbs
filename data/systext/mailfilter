@@ -1,0 +1,28 @@
+c7z4Mail-Filter command promptz0
+
+c2Quit    c5: :2c6Quit to Mail prompt:0
+c2?       c5: :2c6This help file:0
+c2Names   c5: :2c6Add a new username, realname, network address to ignore:0
+c2Subjectsc5: :2c6Add a new subject to be ignore:0
+
+c7z4General Informationz0
+
+Mail filters are also commonly known as "twit filters" or "spam killers".
+
+Mail Filters are responsible for killing mail from users that you want to
+ignore.  It is also possible to automatically suspend receipt of mails matching
+a subject (the [S]ubject command).
+
+   eg. :2if your Names list contains "Ray Akey@1:246/74", you would never receive mails through Fidonet from the developer of CNet Amiga. :(:0
+
+       :2if your Names list contains "*@1:246/*.*", you would not get any mail from fidonet net 246 in zone 1.:0
+
+       :2if your Names list contains "*@netrover.com", you would never receive mail from any user with an account at the ISP that the CNet developer gets his internet access.:0
+
+       :2if your Names list contains "rakey@netrover.com", you would never receive internet mail from the developer of CNet Amiga.:0
+
+       :2if your Subject list contained "*test*", you would never receive mails that have the word TEST anywhere in their subject/title.:0
+
+       :2if your Subject list contained the word "spam", then you would never receive mails with a single word title of "spam".:0
+
+Ask your sysop for more information if you are not sure about mail filters.

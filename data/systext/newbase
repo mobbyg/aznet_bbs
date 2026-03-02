@@ -1,0 +1,27 @@
+c5Welcome!  Here are the essential commands that you will need to navigate through this system:z0
+
+c7Qc6uit     c5:  :2c7Go back to the previous list of items and areas.  If there's no place to go to, you will given the option to leave the system.:0
+
+c7Sc6can     c5:  :2c7Display a list of the items and areas available to you.  (DIR) marks items which will take you to another list.:0
+
+c6To access any item or area on the list, enter its number.
+
+c5Although this system offers many powerful features and commands, there is a set of commands with which you should become familiar.  Want to see them [Yes]? ?1t70 #1}jn 5}
+c7?c6        c5:  :2c7Quick help.  Looks like you have found this one!:0
+c7Cc6hat     c5:  :2c7Ask the system operator for assistance.:0
+c7Fc6eedback c5:  :2c7Send a private message to the system operator.:0
+c7FINDc6     c5:  :2c7Find a file anywhere on this system.:0
+c7FINGc6er   c5:  :2c7Find out more about another user on this system.:0
+c7MAILc6     c5:  :2c7Visit the postoffice to send or receive mail.:0
+c7OFFc6      c5:  :2c7Hang-up and leave the system.:0
+c7Tc6ime     c5:  :2c7What time is it?  How long have I been here?:0
+c7WHOc6      c5:  :2c7Who else is using the system right now?:0
+
+c5Additional help is availble by using the HELP command, or HELP followed by a topic word.  Want to see a few of the important ones [Yes]? ?1t70 #1}jn 5}
+c7DOWNLOAD c5:  :2c7for help with file transfers commands.:0
+c7NEW      c5:  :2c7for help with locating new items.:0
+c7NEWUSER  c5:  :2c7for help with new user commands.:0
+c7MAIL     c5:  :2c7for help with sending and receiving mail.:0
+c7MAINT    c5:  :2c7for help with maintenance functions.:0
+c7PROFILE  c5:  :2c7for help with viewing/changing your account profile.:0
+c7TALK     c5:  :2c7for help with communicating with other users.:0

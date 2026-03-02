@@ -1,0 +1,28 @@
+c2Hc6      c5:  :2c7Display this menu:0
+c2Xc6      c5:  :2c7Toggle the help/menu line to display other options:0
+c2Qc6      c5:  :2c7Quit CNetCommander:0
+c2Pc6      c5:  :2c7Same as the LEFT arrow; go to the parent directory if valid:0
+c2Bc6      c5:  :2c7Execute a BBS command:0
+c2Zc6      c5:  :2c7Search the current directory and its sub-directories for a file mathing the pattern entered at the prompt:0
+
+c7z4Hotkeys that are important in getting around CNetCommander                    z0
+
+c2[ENTER]c6c5:  :2c7Examine a file or enter the selected directory:0
+c2[UP]c6   c5:  :2c7Press the UP arrow key to move the file selector up:0
+c2[DOWN]c6 c5:  :2c7Press the DOWN arrow key to move the file selector down:0
+c2[LEFT]c6 c5:  :2c7Press the LEFT arrow to go to the parent directory if valid:0
+c2[RIGHT]c6c5:  :2c7Press the RIGHT arrow to enter the selected sub-directory:0
+c2[SPACE]c6c5:  :2c7select the highlighted file:0
+
+c7z4Other CNetCommander hotkeys that require additional access                    z0
+
+c2Uc6      c5:  :2c7Upload a file to the current directory:0
+c2Dc6      c5:  :2c7Download a file from the current directory:0
+c2Kc6      c5:  :2c7Delete a file from the current directory:0
+c2Mc6      c5:  :2c7Move a file from the current directory to another location:0
+c2Cc6      c5:  :2c7Copy a file from the current directory to another location:0
+c2Ac6      c5:  :2c7Make a new directory/drawer/folder:0
+c2Rc6      c5:  :2c7Rename a file from in the current directory:0
+c2Ic6      c5:  :2c7Put a filenote/description on a file :0
+c2Lc6      c5:  :2c7Display a list of available volumes & devices:0
+c2Ec6      c5:  :2c7Run an external door:0

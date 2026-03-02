@@ -1,0 +1,18 @@
+c5CNet/3 Visual Editor control commands:
+
+c7^X   c6Exit        c2Abort, save, edit, line-editor, new, get, put, quote, or help
+c7^C   c6Command     c2Allows you to execute a BBS command such as WHO, TIME,
+                 c2STATUS, or OLM.
+c7^R   c6Region      c2First Mark a spot, then move to another point to Copy or Kill
+                 c2text.  Copied or killed text can be re-inserted at any point
+                 c2using the Paste option.
+c7^P   c6Preview     c2Display your message exactly as others will read it
+c7^S   c6Search      c2Search for a string of characters
+c7^U   c6Up          c2Move to the top of the screen, then top of text
+c7^O   c6Down        c2Move to the bottom of text
+c7^A   c6Page Up     c2Move up one page-full of text
+c7^Z   c6Page Down   c2Move down one page-full of text
+c7^B   c6Begin       c2Move to the beginning of the current line
+c7^N   c6End         c2Move to the end of the current line
+c7^V   c6Verify      c2Re-print the current screen
+c7^K   c6Kill        c2Erase from cursor to end of line

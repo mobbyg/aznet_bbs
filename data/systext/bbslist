@@ -1,0 +1,9 @@
+c7z5BBS List system command promptz0
+
+c7Ac6dd      c5:  :2c7Add a BBS to the list:0
+c7Dc6ownload c5:  :2c7Download the BBS list (or, use * to select it):0
+c7Ec6dit     c5:  :2c7Edit a BBS listing:0
+c7Kc6ill     c5:  :2c7Kill a BBS from the list (you must be the one who added it):0
+c7Lc6ist     c5:  :2c7Display the list of BBS's:0
+c7Oc6ff      c5:  :2c7Leave the BBS:0
+c7Qc6uit     c5:  :2c7Quit back to the Main> prompt:0

@@ -1,0 +1,43 @@
+c7z5FTP Command Promptz0
+
+c2?/MENUc6   c5:  :2c7Display this menu:0
+c2Qc6uit     c5:  :2c7Quit this FTP client:0
+c2PEc6ersonalc5:  :2c7List your personally configured FTP sites (not implemented):0
+c2PUc6blic   c5:  :2c7List sites the Sysop has pre-configured (not implemented):0
+c2OPc6en     c5:  :2c7Open/connect-to an FTP site:0
+c2CLc6ose    c5:  :2c7Disconnect from the current FTP site:0
+c2Dc6ownload c5:  :2c7Download a file from an FTP site:0
+c2Uc6pload   c5:  :2c7Upload a file to an FTP site:0
+c2CDc6       c5:  :2c7Change the current working directory on the remote site:0
+c2CDUPc6     c5:  :2c7"CD" up one directory level (parent) on the remote site:0
+c2LCDc6      c5:  :2c7Change the current working directory on the local site:0
+c2PWDc6      c5:  :2c7Print the current working directory of the remote site:0
+c2Sc6can     c5:  :2c7List files/directories on the remote site:0
+c2MKc6dir    c5:  :2c7Create a new directory on the remote site:0
+c2RMc6dir    c5:  :2c7Remove/delete a directory from the remote site:0
+c2REFc6resh  c5:  :2c7Display a buffered file-list of the last directory scanned:0
+c2NOOPc6     c5:  :2c7"No Operation" - generates activity to avoid remote timeouts. An alternate method of generating a "NOOP" is to press your [ENTER] key without entering a command:0
+c2CPc6       c5:  :2c7Change the frequency of file-transfer progress updating.  0=always update when bytes received, 100=no progress update.  Any other value between x = 1 to 99, inclusive, forces progress updates at every x percent of total filesize.:0
+
+c1Want to see the command line args [Yes]? ?1t70 #1}jn 5}
+c7z5FTP Command Line Argsz0
+
+c6The following are arguments you may specify on the command line and as command arguments for the OPEN command:
+
+c2R= <RemoteSite> c5:       :2c7The hostname/IP of a remote site. You may leave out the "R=" part and supply only the hostname but it is ok to include also.:0
+c2O= <RemotePort> c5:       :2c7The port to connect to (default=21):0
+c2D= <RemoteDir>  c5:       :2c7The remote dir to "CD" to.:0
+c2C= <LocalDir>   c5:       :2c7The local directory to use (default=your FILES dir):0
+c2L= <LoginName>  c5:       :2c7The username to use for the remote site (default=your mail ID):0
+c2P= <LoginPass>  c5:       :2c7The password to use for the remote site.:0
+c2T= <Account>    c5:       :2c7Some sites may require an account name; most do not.:0
+c2G= <GetFileName>c5:       :2c7A filename (with full remote path) to auto get on connect.:0
+c2E= <progress %> c5:       :2c7an integer representing the progress display update frequency where 100 = no progress display, 0=always update progress when any bytes are received and 1-99 represents a percentage of the complete filesize, if known.:0
+c2Q               c5:       :2c7Auto quit after automated session complete (usually used in conjunction with the "R" command.:0
+c2A               c5:       :2c7Automatically login as anonymous.:0
+
+   c6example 1: FTP ftp.wustl.edu D=/pub/aminet
+   c6example 2: FTP ftp.uni-paderborn.de D=/pub/aminet A
+   c6example 3: FTP somesite.badport.net O=113 D=/myfiles/ L=rakey P=myfunkypass
+
+c2Notec5: :2c7When the O=<RemotePort> argument is supplied, this becomes the default port for the remainder of the current session, until the port is changed by supplying the O arg again, with a different port number. Otherwise, port 21 is the standard default FTP port.:0

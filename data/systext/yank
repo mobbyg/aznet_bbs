@@ -1,0 +1,9 @@
+c7z5YANK (bundle messages for downloading/off-line reading)z0
+
+c7Fc6ilter   c5:  :2c7Select words/phrases which will PREVENT messages from being downloaded:0
+c7Kc6eyword  c5:  :2c7Select words/phrases which MUST appear in a message in order to be downloaded:0
+c7Lc6ist     c5:  :2c7List subboards containing new messages. Flags are: (+) selected for yank, (k) keywords used, (f) filters used:0
+c7Sc6ubboard c5:  :2c7Toggle selection of subboards to be Yanked:0
+c7Yc6ank     c5:  :2c7Begin the Yank process:0
+
+c2You may specify a RANGE of subboards with the Filter, Keyword, and Subboard commands.

@@ -1,0 +1,25 @@
+c7z5CNet/3 Conference Room Commandsz0
+
+c7/CCc6      c5:  :2c7Request to chat privately with another user:0
+c7/HIc6de    c5:  :2c7Hide from another user (so he can't see what you type).:0
+c7/Lc6ist    c5:  :2c7List the available rooms and the users in them.:0
+c7/MUc6ffle  c5:  :2c7Muffle another user (stop their OLMs).:0
+c7/NAc6me    c5:  :2c7In a real-name room, toggle the use of your real-name on and off.:0
+c7/OLMc6     c5:  :2c7Send an on-line message to another user.:0
+c7/Qc6uit    c5:  :2c7Return the the Main> prompt.:0
+c7/Rc6oom    c5:  :2c7Move between the lobby and your own private room.:0
+c7/Rc6oom n  c5:  :2c7Move to a specific room by room# or topic.  /L for a list.:0
+c7/WHc6o     c5:  :2c7Who else is using the system, and what are they doing?:0
+c7/Xc6       c5:  :2c7Edit your conference system preferences.:0
+c7-c6        c5:  :2c7Whisper to someone (a private message).:0
+c7+c6        c5:  :2c7Yell to someone (publically address the person).:0
+c7=c6        c5:  :2c7Make a noise ("action" command).:0
+
+Want to see the control commands [No]? ?0t70 #0}je 15}
+c7/COc6ntrol c5:  :2c7(sysop) take control of this room.:0
+c7/Ic6nvite  c5:  :2c7Invite users into your private room.:0
+c7/PAc6ss    c5:  :2c7Pass control to another user in this room.:0
+c7/PEc6rma   c5:  :2c7(sysop) make this room permanent (will survive without users):0
+c7/UNc6invitec5:  :2c7Uninvite (and kick out) users from your private room:0
+c7/Vc6erify  c5:  :2c7Verify roster on ALL LINKED SYSTEMS:0
+c7/XRc6      c5:  :2c7Edit the room's preferences.:0

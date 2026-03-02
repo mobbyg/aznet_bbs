@@ -1,0 +1,8 @@
+c7z5Global Command Between-Subboard promptz0
+
+c7Ac6bort    c5:  :2c7Stop, return to the original prompt:0
+c7Cc6ontinue c5:  :2c7Move on to the next subboard:0
+c7Dc6drop    c5:  :2c7Do not visit this subboard in the future:0
+c7Pc6ost     c5:  :2c7Post a message to this subboard:0
+c7Qc6uit-herec5:  :2c7Stop at this subboard:0
+c7Sc6kip-dir c5:  :2c7Skip all subboards in this directory:0

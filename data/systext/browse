@@ -1,0 +1,10 @@
+c7z5BROWSE (scan items, pausing to read, download, or select)z0
+
+c7Dc6ownload c5:  :2c7Select file(s) to download NOW:0
+c7*c6        c5:  :2c7Select file(s) to download later:0
+c7Ec6xtract  c5:  :2c7List archive contents (ARC,LZH,etc) of file(s):0
+c7Gc6rab     c5:  :2c7Display ASCII or HEX contents of file(s):0
+c7Qc6uit     c5:  :2c7Terminate the Browse operation:0
+c7Rc6ead     c5:  :2c7Select items to read now:0
+
+c2You may specify a RANGE of items with any of these commands.

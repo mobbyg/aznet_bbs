@@ -1,0 +1,269 @@
+add    -1  <`0 `2>
+ahem	0  <`0 `is clearing `his throat>
+ahem	1  <`0 ahem`s loudly, hoping that `1 will notice>
+applaud 0  <`0 applaud`s>
+applaud 1  <`0 applaud`s `1>
+apol    0  <`0 apologize`s>
+apol    1  <`0 apologize`s to `1>
+back	0  <`0 ha`v returned and `is ready to talk!>
+backrub	0  <`0 need`s a backrub>
+backrub	1  <`0 `is giving `1 a backrub>
+bcatch	0  <`0 nonchalantly catch`es the airborne beer>
+bcatch	1  <`0 casually snag`s the beer intended for `1>
+bcar	1  <`0 gently caress`es `1, then Whammo!  A slap in the kisser>
+bdef	0  <`0 deflect`s the beer; it explodes in a sudsy mess!>
+bdef	1  <Amazingly, `0 deflect`s the beer to `1 with one hand>
+bearhug	1  <`0 `is giving `1 a great big bone-crushing bearhug!>
+bed	0  <`0 `is ready for bed>
+bed	1  <`0 `is tucking `1 into bed>
+bite    1  <`0 bite`s `1>
+blink	0  <`0 `is blinking in amazement!>
+blink	1  <`0 `is blinking at `1 in disbelief!>
+blush	0  <`0 `is blushing and turning bright red>
+blush	1  <`0 `is sheepishly looking at `1 and blushing>
+body	1  <`0 `is bodyslamming `1 onto the mat!>
+bow	0  <`0 `is bowing humbly>
+bow	1  <`0 `is bowing to `1 humbly>
+brag	0  <`0 `is such a braggart>
+brag	1  <`0 wish`es `1 didn't brag so much>
+brb	0  <`0 will be back after these messages...>
+bslam	0  <`0 snatch`es the beer out of the air and slam`s it down!>
+bslap	1  <`0 `is Bitch-Slapping `1, with FIRE in `his eyes!>
+btoss	0  <How come no one ever tosses `0 a beer?>
+btoss	1  <In a deft motion, `0 toss`es a beer to `1>
+burp	0  <`0 `is burping rudely...inconsiderate slob>
+burp	1  <`0 `is burping at `1, just like an angry lamer>
+bye	0  <`0 `is leaving us!>
+bye	1  <`0 `is bidding `1 goodbye!>
+caress	1  <`0 `is gently caressing `1 with a twinkle in `his eyes>
+chant	0  <`0 `is chanting in a monotonous tone of voice>
+cheer  -1  c3`0 c7<cheering>: c5`2
+cheer	0  <`0 `is cheering with great gusto!>
+chop	1  <A 500 foot redwood tree just fell on `1!>
+chortle 0  <`0 chortles>
+chuckle	0  <`0 `is chuckling quietly under `his breath>
+clap	0  <`0 `is clapping wildly!>
+clap	1  <`0 `is clapping in admiration for `1!>
+comfort	1  <`0 `is offering `1 comfort and sympathy>
+cookie	0  <`0 sure would like a cookie right now>
+cookie	1  <`0 `is handing `1 a cookie>
+cough	0  <`0 `is coughing up a lung>
+cough	1  <`0 ask`s `1 to turn his head and cough>
+cry	0  <`0 `is crying `his poor little heart out>
+cry	1  <`0 `is crying woefully to `1>
+cuddle	1  <`0 `is cuddling with `1 affectionately>
+curse   0  <`0 curse`s>
+dance	0  <`0 `is dancing around the room>
+dance	1  <`0 `is dancing with `1>
+die     0  <`0 die`s>
+does    0  <`0 do`es>
+drool	0  <`0 `is drooling in anticipation>
+drool	1  <`0 take`s one look at `1 and begin`s drooling uncontrollably>
+drop	1  <A 500 ton canary just landed on `1!>
+duck	0  <`0 `is ducking>
+duck	1  <`0 `is ducking, allowing the pie to hit `1 instead!>
+eject	0  <`0 push`es a button and `is ejected through the roof!>
+eject	1  <`0 push`es a button and shoot`s `1 through the ceiling!>
+embrace	1  <`0 `is embracing `1 lovingly>
+eyebrow	0  <`0 raise`s an eyebrow>
+eyebrow	1  <`0 `is raising an eyebrow at `1 inquisitively>
+faint	0  <`0 ha`v just fainted dead away!>
+fall    0  <`0 fall`s down>
+fan	0  <`0 need`s a fan really bad...>
+fan	1  <`0 `is gently fanning `1 with an ostrich plume fan>
+flex	0  <`0 `is flexing and showing off `his big muscles>
+flirt   1  <`0 flirt`s with `1>
+flower	0  <How come `0 never get`s any flowers?>
+flower	1  <`0 `is giving `1 a lovely bouquet of flowers>
+fly	0  <`0 `is flying happily around the room...wheee!>
+fondle	1  <`0 `is fondling `1!>
+forgive	1  <`0 `is forgiving `1 for being so foolish>
+french	1  <`0 `is frenching `1!>
+frown	0  <`0 `is frowning>
+frown	1  <`0 `is frowning at `1 grimly>
+gag	0  <`0 `is gagging>
+gag	1  <`0 gag`s `1 in an attempt to restore peace and quiet>
+gasp	0  <`0 `is gasping with `his mouth wide open!>
+gasp	1  <`0 `is gasping at `1 in sheer amazement!>
+giggle	0  <`0 `is giggling uncontrollably>
+give    2  <`0 give`s `2 to `1>
+glare	0  <`0 `is glaring around the room angrily>
+glare	1  <`0 `is glaring at `1>
+goose	0  <`0 `is such a silly goose>
+goose	1  <`0 `is goosing `1>
+greet   1  <`0 greet`s `1>
+grin	0  <`0 `is grinning slyly>
+grin	1  <`0 `is grinning at `1 rather slyly>
+groan  -1  c3`0 c7<groaning>: c5`2
+groan	0  <`0 `is groaning miserably>
+grovel	0  <`0 `is begging for forgiveness!>
+grovel	1  <`0 `is on `his knees, pleading with `1 to forgive `his stupidity>
+growl	0  <`0 `is growling like a bear!>
+growl	1  <`0 `is growling at `1!>
+gun	0  <`0 put`s away the Gun>
+gun	1  <`0 glare`s at `1 and say`s, "Put the Gun away!">
+hand	1  <`0 `is shaking hands with `1>
+hello   0  <`0 wave`s hello>
+hello   1  <`0 wave`s hello to `1>
+hide	0  <`0 `is hiding>
+hide	1  <`0 `is hiding from `1>
+hug	0  <`0 could really use a hug right now>
+hug	1  <`0 `is hugging `1>
+ignore  1  <`0 `is ignoring `1>
+is      0  <`0 `is>
+jog     1  <`0 jog`s over to `1 and smile`s>
+juggle	0  <`0 `is juggling several small furry animals>
+juggle	1  <`0 `is juggling flaming torches to entertain `1!>
+jump	0  <`0 `is jumping up and down rather excitedly>
+jump	1  <`0 `is jumping on `1 while screaming obscenities!>
+kick	1  <`0 `is kicking `1 while mumbling various obscenities!>
+kill	0  <`0 look`s about ready to kill someone>
+kill	1  <`0 look`s ready to kill `1!>
+kiss	0  <`0 `is puckering up>
+kiss	1  <`0 `is kissing `1>
+kleenex	0  <`0 take`s out a kleenex and blow`s `his nose>
+kleenex	1  <`0 `is handing `1 a kleenex>
+kneel   0  <`0 kneel`s>
+kneel   1  <`0 kneel`s to `1>
+kslap	0  <`0 go`es to slap `his knee, but miss`es>
+lamer	0  <`0 `is such a lamer>
+lamer	1  <`0 think`s of `1 as a real lamer!>
+lap	0  <Gee, what's wrong with `0`'s lap?
+lap	1  <`0 leap`s into the lap of an unsuspecting `1!>
+laugh	0  <`0 `is laughing profusely!>
+laugh	1  <`0 laugh`s at `1 in amusement!>
+lick	0  <`0 `is licking the pie off `his face>
+lick	1  <`0 surprise`s `1 by licking the pie off with `his tongue>
+lol	0  <`0 `is laughing out loud!>
+lol	1  <`0 `is laughing at `1 hysterically!>
+look	0  <`0 `is looking around the room>
+look	1  <`0 `is looking at `1>
+massage	0  <`0 want`s a massage desperately!>
+massage	1  <`0 `is massaging `1 softly>
+moan	0  <`0 `is moaning in ecstasy!>
+mosh	0  <`0 `is moshing about the room, flailing `his arms wildly!>
+mutter -1  c3`0 c7<mutter`s>: c5`2
+mutter	0  <`0 `is muttering something under `his breath>
+nibble	0  <`0 `is nibbling on `his toe nails!>
+nod	0  <`0 `is nodding `his head affirmatively>
+nod	1  <`0 `is nodding at `1 in agreement>
+nudge	0  <`0 need`s to be nudged!>
+nudge	1  <`0 `is nudging `1>
+nuke	0  <`0 ha`v just gone to the kitchen to nuke something>
+nuke	1  <`0 `is air-bursting a nuclear bomb over `1!>
+orgasm	0  <`0 `is writhing in the throes of an orgasm>
+pat	0  <`0 suffer`s a broken arm after patting `his own back!>
+pat	1  <`0 `is giving `1 a pat on the back!>
+pelt	1  <`0 `is pelting `1 with rotten fruit>
+pie	0  <`0 `is looking for a pie to throw>
+pie	1  <`0 `is throwing a pie at `1!>
+pigs	0  <`0 `is bathing in the pigs pen!>
+pill	1  <`0 `is swallowing `1`'s1 pill>
+pillow	1  <`0 whop`s `1 over the head with `his pillow!>
+pinch	1  <`0 `is pinching `1 on the cheek!>
+placard -1 c3`0 c7hold`s a placard which says: c5`2
+placard	0  <`0 ask`s, "Where's my placard?">
+play	0  <`0 `is jamming along with this song on air guitar>
+play	1  <`0 `is playing around with `1>
+point	1  <`0 `is pointing at `1>
+pounce	0  <`0 pounce`s viciously!>
+pounce	1  <`0 `is pouncing on `1!>
+pout   -1  c3`0 c7<pouting>: c5`2
+pout	0  <`0 `is pouting>
+pray   -1  c3`0 c7<praying>: c5`2
+pray	0  <`0 `is saying `his prayers>
+prod	1  <`0 `is prodding `1 with a 10 foot pole>
+puke    0  <`0 puke`s>
+puke    1  <`0 puke`s on `1>
+puke    2  <`0 puke`s `2 on `1>
+punch	1  <`0 `is punching `1 in the nose!>
+quibble	0  <`0 `is tired of all this quibbling>
+quibble	1  <`0 `is watching `1 quibble over trivial details>
+reh	1  <`0 `is saying hello AGAIN to `1!>
+roll	0  <`0 `is rolling on the floor laughing hysterically>
+rose	0  <`0 `is hoping to recieve a rose!>
+rose	1  <Bowing deeply, `0 present`s `1 with a single perfect rose>
+rub	0  <`0 `is rubbing `his hands together and laughing. Moo-Ha-Ha!>
+sarc   -1  c3`0 c7<sarcasticly>: c5`2
+sarc	0  <`0 `is being sarcastic>
+sbox   -1  c3`0 c7<from `his soapbox>: c5`2
+sbox	0  <`0 `is looking around for a soapbox>
+scream	0  <`0 `is screaming `his fool head off!>
+shake	0  <`0 `is shaking `his head negatively>
+shake	1  <`0 `is looking at `1 and shaking `his head negatively>
+shame	0  <`0 `is so ashamed>
+shame	1  <`0 `is making the international sign of shame at `1>
+shoot	0  <`0 pull`s out the gun and mow`s everyone down!>
+shoot	1  <`0 pull`s out the gun and shoot`s `1 dead!>
+shrug	0  <`0 `is shrugging>
+shrug	1  <`0 `is shrugging at `1!>
+sigh   -1  c3`0 c7<sighing>: c5`2
+sigh	0  <`0 `is sighing heavily>
+sing   -1  c3`0 c7<singing>: c5`2
+sing	0  <`0 `is singing with glee!>
+sit	0  <`0 `is quietly sitting in `his chair, listening>
+sit	1  <`0 wish`es `1 would sit still for a minute!>
+slap	0  <`0 `is slapping `his own cheek in disgust>
+slap	1  <`0 `is slapping `1>
+sleep	0  <`0 `is nodding off to sleep>
+smack	1  <`0 `is backhanding `1 across the mouth>
+smile	0  <`0 `is smiling happily>
+smile	1  <`0 `is smiling at `1>
+smirk	0  <`0 `is smirking wryly!>
+smirk	1  <`0 `is smirking at `1!>
+smooch	1  <`0 `is smooching with `1>
+smother	1  <`0 `is smothering `1 with a pillow!>
+snap	1  <`0 `is asking `1 to STOP using profanity or ZAP WILL FOLLOW!>
+snarl	0  <`0 `is snarling viciously!>
+snarl	1  <`0 `is snarling at `1!>
+sneeze	0  <`0 `is sneezing uncontrollably>
+sneeze	1  <`0 "accidentally" sneeze`s on `1>
+snicker	0  <`0 `is snickering stupidly>
+sniff	0  <`0 `is sniffling pitifully>
+snore   0  <`0 snore`s>
+sob    -1  c3`0 c7<sobbing>: c5`2
+sob	0  <`0 `is sobbing with tears in `his eyes>
+spank	0  <`0 think`s someone around here needs a good spanking>
+spank	1  <`0 take`s `1 over `his knee for a good spanking>
+spell	1  <`0 `is casting a wicked spell on `1! LOOK, an Oompa Loompa!>
+spit    0  <`0 spit`s>
+spit    1  <`0 spit`s at `1>
+spit    2  <`0 spit`s `2 at `1>
+squirt	1  <`0 `is squirting `1 with `his water pistol>
+stand   0  <`0 stand`s up>
+stop	0  <`0 `is holding up a STOP sign>
+stop	1  <`0 `is bringing `1 to a dead STOP>
+strip	0  <Suddenly, `0 take`s off all `his clothes!>
+strip	1  <`0 `is doing a slow strip-tease for `1!>
+subject	0  <`0 `is trying to change the subject>
+subject	1  <`0 `is hoping `1 will change the subject>
+sun	0  <`0 pull`s `his Ray-Bans down and look`s around>
+sun	1  <`0 `is looking at `1 over the top of `his Ray-Bans>
+tease	1  <`0 `is teasing `1>
+thank	0  <Gee, do`esn't `0 get any thanks?>
+thank	1  <`0 `is thanking `1>
+think	0  <`0 `is in Deep Thought about the topic>
+think	1  <`0 `is thinking about `1>
+throw   2  <`0 throw`s `2 at `1>
+tickle	1  <`0 `is tickling `1 to death!>
+typo	0  <Today is `0`'s first day with `his new fingers>
+typo	1  <`0 wonder`s where `1 got those swell new fingers>
+vomit	0  <`0 `is vomiting all over the ground>
+vomit	1  <`0 `is vomiting all over `1!>
+wake    0  <`0 wake`s up>
+wave	0  <`0 `is waving frantically!>
+wave	1  <`0 `is waving to `1>
+waves	0  <`0 wave`s `his fingers in awe and say`s, "Oooooh!">
+welcome	1  <`0 `is warmly welcoming `1 to the conference>
+whine  -1  c3`0 c7<whining>: c5`2
+whine	0  <`0 `is whining pitifully>
+whistle	0  <`0 `is innocently whistling a simple tune>
+whistle	1  <`0 `is whistling at `1 with lust in `his eyes!>
+wink	0  <`0 `is slyly winking>
+wink	1  <`0 `is surreptitiously winking at `1!>
+yawn   -1  c3`0 c7<yawning>: c5`2
+yawn	0  <`0 `is yawning quite noticeably>
+yell   -1  c3`0 c7<yelling>: c5`2
+yell	0  <`0 `is yelling quite loudly!>
+zap	1  <`0 `is zapping `1 with `his 1.5 Megawatt probe!>
+zonk	1  <`0 `is ZONKING `1 on the head with a blunt instrument>
